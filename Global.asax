@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Azan_Properties.MvcApplication" Language="C#" %>
