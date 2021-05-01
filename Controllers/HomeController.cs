@@ -24,5 +24,23 @@ namespace Azan_Properties.Controllers
             ViewBag.Message = "Your contact page.";
             return View();
         }
+
+        public ActionResult TermOfUser()
+        {
+            ViewBag.Message = "Your Terms of Use page.";
+            return View();
+        }
+
+        public ActionResult Privacy()
+        {
+            ViewBag.Message = "Your Privacy Usage.";
+            return View();
+        }
+
+        public ActionResult Inquiry()
+        {
+            ViewBag.Message = "Your Inquiry Page.";
+            return View();
+        }
     }
 }
