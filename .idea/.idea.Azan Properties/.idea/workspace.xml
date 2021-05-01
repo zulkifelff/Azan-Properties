@@ -4,7 +4,7 @@
     <projectFile>Azan Properties.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="File Setup Initial" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +14,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -27,7 +28,11 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Scripts/interaction.js" />
+      <option value="$PROJECT_DIR$/Scripts/site.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -98,6 +103,7 @@
       <updated>1619770223843</updated>
       <workItem from="1619770230434" duration="234000" />
       <workItem from="1619770662535" duration="125000" />
+      <workItem from="1619849635862" duration="412000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -113,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619770774385</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Assets: Images Added">
+      <created>1619849795845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1619849795845</updated>
+    </task>
+    <task id="LOCAL-00004" summary="File Setup Initial">
+      <created>1619850036776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1619850036776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +156,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First Push for Documents: Azan Properties Project" />
     <MESSAGE value="Basic Setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basic Setup" />
+    <MESSAGE value="Assets: Images Added" />
+    <MESSAGE value="File Setup Initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Setup Initial" />
   </component>
 </project>
