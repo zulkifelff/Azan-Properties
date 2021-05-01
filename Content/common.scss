@@ -1,6 +1,7 @@
 ﻿//colors
-$color_cyprus_approx: rgba(0, 59, 73, 1);
 $white: rgba(255, 255, 255, 1);
+$color_cyprus_approx: rgba(0, 59, 73, 1);
+$color_cyprus_4_approx: rgba(0, 59, 73, 0.04);
 
 //fonts
 $font_0: 'Poppins';
@@ -66,6 +67,10 @@ body {
   align-content: stretch;
 }
 
+.navbar-toggle .icon-bar {
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+}
+
 .header-design {
   background: $white 0 0 no-repeat padding-box;
   //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -90,61 +95,60 @@ body {
   }
 }
 
-.navbar-toggle .icon-bar {
-  background: rgba(0, 59, 73, 1) 0 0 no-repeat padding-box;
-}
-
-.navbar-anchor-links li a {
-  letter-spacing: 0;
-  font-size: 14px;
+.sm-footer-copyright {
   text-align: left;
-  color: rgba(0, 59, 73, 1);
-  text-transform: capitalize;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: rgba(0, 0, 0, 1);
   opacity: 1;
 }
 
-
-
-.navbar-anchor-links > li > a:hover, .navbar-anchor-links > li > a:focus {
-  text-decoration: none;
-  background: rgba(0, 59, 73, 0.04) 0 0 no-repeat padding-box;
-}
-
-@media (min-width: 768px)
-{
-  .container > .navbar-header {
-   margin-top: 17px;
-    margin-bottom: 17px;
+.navbar-anchor-links {
+  li a {
+    letter-spacing: 0;
+    font-size: 14px;
+    text-align: left;
+    color: $color_cyprus_approx;
+    text-transform: capitalize;
+    opacity: 1;
   }
 
-  .navbar-anchor-links li.special-navigation a
-  {
+  > li > a {
+    &:hover {
+      text-decoration: none;
+      background: $color_cyprus_4_approx 0 0 no-repeat padding-box;
+    }
+
+    &:focus {
+      text-decoration: none;
+      background: $color_cyprus_4_approx 0 0 no-repeat padding-box;
+    }
+  }
+}
+
+@media(min-width: 768px) {
+  .container > .navbar-header {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .navbar-anchor-links li.special-navigation a {
     padding-top: 11px;
     padding-bottom: 11px;
     margin-top: 18px;
-    color: #FFF;
-  }
-
-  .navbar-anchor-links li.special-navigation a
-  {
-    background: rgba(0, 59, 73, 1) 0 0 no-repeat padding-box;
+    color: $white;
+    background: $color_cyprus_approx 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
     border-radius: 6px;
     opacity: 1;
   }
-}
-
-
-@media(min-width: 768px) {
   .navbar-collapse.collapse .navbar-nav {
     margin-left: 300px;
   }
   .navbar-nav > li > a {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-  .container > .navbar-header {
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 
@@ -157,3 +161,4 @@ body {
     align-content: flex-end;
   }
 }
+

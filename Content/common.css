@@ -46,6 +46,10 @@ body {
   align-content: stretch;
 }
 
+.navbar-toggle .icon-bar {
+  background: #003b49 0 0 no-repeat padding-box;
+}
+
 .header-design {
   background: white 0 0 no-repeat padding-box;
   box-shadow: 0 3px 24px #0000000A;
@@ -67,8 +71,12 @@ body {
   height: 100%;
 }
 
-.navbar-toggle .icon-bar {
-  background: #003b49 0 0 no-repeat padding-box;
+.sm-footer-copyright {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
 }
 
 .navbar-anchor-links li a {
@@ -79,8 +87,11 @@ body {
   text-transform: capitalize;
   opacity: 1;
 }
-
-.navbar-anchor-links > li > a:hover, .navbar-anchor-links > li > a:focus {
+.navbar-anchor-links > li > a:hover {
+  text-decoration: none;
+  background: rgba(0, 59, 73, 0.04) 0 0 no-repeat padding-box;
+}
+.navbar-anchor-links > li > a:focus {
   text-decoration: none;
   background: rgba(0, 59, 73, 0.04) 0 0 no-repeat padding-box;
 }
@@ -89,22 +100,20 @@ body {
   .container > .navbar-header {
     margin-top: 17px;
     margin-bottom: 17px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .navbar-anchor-links li.special-navigation a {
     padding-top: 11px;
     padding-bottom: 11px;
     margin-top: 18px;
-    color: #FFF;
-  }
-
-  .navbar-anchor-links li.special-navigation a {
+    color: white;
     background: #003b49 0 0 no-repeat padding-box;
     border-radius: 6px;
     opacity: 1;
   }
-}
-@media (min-width: 768px) {
+
   .navbar-collapse.collapse .navbar-nav {
     margin-left: 300px;
   }
@@ -112,11 +121,6 @@ body {
   .navbar-nav > li > a {
     padding-top: 32px;
     padding-bottom: 32px;
-  }
-
-  .container > .navbar-header {
-    margin-right: 0;
-    margin-left: 0;
   }
 }
 @media screen and (device-width: 360px) and (device-height: 640px) {

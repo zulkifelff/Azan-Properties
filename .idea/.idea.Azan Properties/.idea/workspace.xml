@@ -9,7 +9,9 @@
       <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +39,10 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
       <option value="$PROJECT_DIR$/Views/Home/Privacy.cshtml" />
@@ -54,6 +53,9 @@
       <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -137,7 +139,7 @@
       <updated>1619770223843</updated>
       <workItem from="1619770230434" duration="234000" />
       <workItem from="1619770662535" duration="125000" />
-      <workItem from="1619849635862" duration="7521000" />
+      <workItem from="1619849635862" duration="8747000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
