@@ -4,7 +4,28 @@
     <projectFile>Azan Properties.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="File Setup Initial" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Workspace Update">
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_linkdin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/logo_header.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App_Start/BundleConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.intellisense.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/jquery-3.3.1.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,10 +50,14 @@
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -51,9 +76,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Publish to folder.Publish Azan Properties to folder">
+    <configuration name="Publish Azan Properties to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish configuration="Release" platform="Any CPU" runtime="Portable" target_folder="$PROJECT_DIR$ Release" target_framework="net472" uuid_high="-8729739189363455024" uuid_low="-9213708270377811388" />
+      <method v="2" />
+    </configuration>
     <configuration name="Azan Properties" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -92,6 +125,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Publish to folder.Publish Azan Properties to folder" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -103,7 +141,7 @@
       <updated>1619770223843</updated>
       <workItem from="1619770230434" duration="234000" />
       <workItem from="1619770662535" duration="125000" />
-      <workItem from="1619849635862" duration="412000" />
+      <workItem from="1619849635862" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -133,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619850036776</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Workspace Update">
+      <created>1619850065434</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1619850065434</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +203,7 @@
     <MESSAGE value="Basic Setup" />
     <MESSAGE value="Assets: Images Added" />
     <MESSAGE value="File Setup Initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="File Setup Initial" />
+    <MESSAGE value="Workspace Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workspace Update" />
   </component>
 </project>

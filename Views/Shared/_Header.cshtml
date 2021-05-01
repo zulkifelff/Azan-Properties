@@ -1,1 +1,51 @@
-﻿
+﻿@* Social Media Section *@
+<section class="clearfix">
+    <div class="container-fluid sm-header-design  row-gutters-void clearfix">
+        <div class="content-sm-header container row-gutters-void">
+            <div class="col-sm-12 col-md-12 sm-icon-placement">
+                <span class="link-icon-sm facebook">
+                    <a href="#" target="_blank"></a>
+                </span>
+                <span class="link-icon-sm twitter">
+                    <a href="#" target="_blank"></a>
+                </span>
+                <span class="link-icon-sm linkedin">
+                    <a href="#" target="_blank"></a>
+                </span>
+                <span class="link-icon-sm instagram">
+                    <a href="#" target="_blank"></a>
+                </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<header class="clearfix">
+    <div class="container-fluid header-design row-gutters-void clearfix">
+        <div class="container row-gutters-void">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <span class="icon-header-bar">
+                            <a href="/">
+                            </a>
+                        </span>
+                        @* @Html.ActionLink("Application name", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"}) *@
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

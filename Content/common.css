@@ -1,6 +1,80 @@
-.body {
+body {
   height: 100%;
   width: 100%;
+  font-family: Poppins, sans-serif;
+}
+
+.sm-header-design {
+  background: #003b49 0 0 no-repeat padding-box;
+  opacity: 1;
+  min-height: 56px;
+}
+
+.content-sm-header {
+  padding-top: 15px;
+}
+
+.link-icon-sm {
+  width: 28px;
+  height: 28px;
+  opacity: 1;
+  margin-left: 8px;
+}
+.link-icon-sm.facebook {
+  background: transparent url("Graphical Assets/Common/icon_facebook.svg") 0 0 no-repeat padding-box;
+}
+.link-icon-sm.linkedin {
+  background: transparent url("Graphical Assets/Common/icon_linkdin.svg") 0 0 no-repeat padding-box;
+}
+.link-icon-sm.twitter {
+  background: transparent url("Graphical Assets/Common/icon_twitter.svg") 0 0 no-repeat padding-box;
+}
+.link-icon-sm.instagram {
+  background: transparent url("Graphical Assets/Common/icon_instagram.svg") 0 0 no-repeat padding-box;
+}
+.link-icon-sm a {
+  display: block;
+  height: 100%;
+}
+
+.sm-icon-placement {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-content: stretch;
+}
+
+.header-design {
+  min-height: 80px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 24px #0000000A;
+}
+
+.icon-header-bar {
+  width: 146px;
+  cursor: pointer;
+  height: 46px;
+  background: transparent url("Graphical Assets/Common/logo_header.svg") 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: table;
+}
+
+.icon-header-bar a {
+  display: block;
+  height: 100%;
+}
+
+/* Portrait and Landscape */
+@media screen and (device-width: 360px) and (device-height: 640px) {
+  .sm-icon-placement {
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: flex-end;
+  }
 }
 
 /*# sourceMappingURL=common.css.map */
