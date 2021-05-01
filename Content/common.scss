@@ -1,15 +1,17 @@
 ﻿//colors
 $color_cyprus_approx: rgba(0, 59, 73, 1);
+$white: rgba(255, 255, 255, 1);
 
 //fonts
-$font_0: Poppins;
-$font_1: sans-serif;
+$font_0: 'Poppins';
+$font_1: 'sans-serif';
 
 //urls
-$url_0: url("Graphical Assets/Common/icon_facebook.svg");
-$url_1: url("Graphical Assets/Common/icon_linkdin.svg");
-$url_2: url("Graphical Assets/Common/icon_twitter.svg");
-$url_3: url("Graphical Assets/Common/icon_instagram.svg");
+$url_0: url('Graphical Assets/Common/icon_facebook.svg');
+$url_1: url('Graphical Assets/Common/icon_linkdin.svg');
+$url_2: url('Graphical Assets/Common/icon_twitter.svg');
+$url_3: url('Graphical Assets/Common/icon_instagram.svg');
+$url_4: url('Graphical Assets/Common/logo_header.svg');
 
 body {
   height: 100%;
@@ -65,29 +67,88 @@ body {
 }
 
 .header-design {
-  min-height: 80px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 24px #0000000A;
+  background: $white 0 0 no-repeat padding-box;
+  //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+  box-shadow: 0 3px 24px #0000000A;
+
+  .navbar {
+    margin-bottom: 0;
+  }
 }
 
 .icon-header-bar {
   width: 146px;
   cursor: pointer;
   height: 46px;
-  background: transparent url('Graphical Assets/Common/logo_header.svg') 0% 0% no-repeat padding-box;
+  background: transparent $url_4 0 0 no-repeat padding-box;
   opacity: 1;
   display: table;
+
+  a {
+    display: block;
+    height: 100%;
+  }
 }
 
-.icon-header-bar a
+.navbar-toggle .icon-bar {
+  background: rgba(0, 59, 73, 1) 0 0 no-repeat padding-box;
+}
+
+.navbar-anchor-links li a {
+  letter-spacing: 0;
+  font-size: 14px;
+  text-align: left;
+  color: rgba(0, 59, 73, 1);
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+
+
+.navbar-anchor-links > li > a:hover, .navbar-anchor-links > li > a:focus {
+  text-decoration: none;
+  background: rgba(0, 59, 73, 0.04) 0 0 no-repeat padding-box;
+}
+
+@media (min-width: 768px)
 {
-  display: block;
-  height: 100%;
+  .container > .navbar-header {
+   margin-top: 17px;
+    margin-bottom: 17px;
+  }
+
+  .navbar-anchor-links li.special-navigation a
+  {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    color: #FFF;
+  }
+
+  .navbar-anchor-links li.special-navigation a
+  {
+    background: rgba(0, 59, 73, 1) 0 0 no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
 }
 
 
-/* Portrait and Landscape */
-@media screen and (device-width: 360px) and (device-height: 640px) {
+@media(min-width: 768px) {
+  .navbar-collapse.collapse .navbar-nav {
+    margin-left: 300px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media screen and(device-width: 360px) and(device-height: 640px) {
   .sm-icon-placement {
     flex-wrap: nowrap;
     align-items: center;
@@ -96,5 +157,3 @@ body {
     align-content: flex-end;
   }
 }
-
-

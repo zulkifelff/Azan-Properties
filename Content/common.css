@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  font-family: Poppins, sans-serif;
+  font-family: "Poppins", "sans-serif";
 }
 
 .sm-header-design {
@@ -47,26 +47,78 @@ body {
 }
 
 .header-design {
-  min-height: 80px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 3px 24px #0000000A;
+  background: white 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 24px #0000000A;
+}
+.header-design .navbar {
+  margin-bottom: 0;
 }
 
 .icon-header-bar {
   width: 146px;
   cursor: pointer;
   height: 46px;
-  background: transparent url("Graphical Assets/Common/logo_header.svg") 0% 0% no-repeat padding-box;
+  background: transparent url("Graphical Assets/Common/logo_header.svg") 0 0 no-repeat padding-box;
   opacity: 1;
   display: table;
 }
-
 .icon-header-bar a {
   display: block;
   height: 100%;
 }
 
-/* Portrait and Landscape */
+.navbar-toggle .icon-bar {
+  background: #003b49 0 0 no-repeat padding-box;
+}
+
+.navbar-anchor-links li a {
+  letter-spacing: 0;
+  font-size: 14px;
+  text-align: left;
+  color: #003b49;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.navbar-anchor-links > li > a:hover, .navbar-anchor-links > li > a:focus {
+  text-decoration: none;
+  background: rgba(0, 59, 73, 0.04) 0 0 no-repeat padding-box;
+}
+
+@media (min-width: 768px) {
+  .container > .navbar-header {
+    margin-top: 17px;
+    margin-bottom: 17px;
+  }
+
+  .navbar-anchor-links li.special-navigation a {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    margin-top: 18px;
+    color: #FFF;
+  }
+
+  .navbar-anchor-links li.special-navigation a {
+    background: #003b49 0 0 no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-collapse.collapse .navbar-nav {
+    margin-left: 300px;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .container > .navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 @media screen and (device-width: 360px) and (device-height: 640px) {
   .sm-icon-placement {
     flex-wrap: nowrap;
