@@ -1,31 +1,19 @@
-﻿body {
-    /*padding-top: 50px;*/
-    /*padding-bottom: 20px;*/
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
+﻿.body-content {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 15px
 }
 
-/* Override the default bootstrap behavior where horizontal description lists
-   will truncate terms that are too long to fit in the left column
-*/
 .dl-horizontal dt {
-    white-space: normal;
+    white-space: normal
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+input, select, textarea {
+    max-width: 280px
 }
 
 .row-gutters-void {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 0
 }
 
 .clearfix:after {
@@ -34,16 +22,65 @@ textarea {
     font-size: 0;
     content: " ";
     clear: both;
-    height: 0;
+    height: 0
 }
 
 * html .clearfix {
-    zoom: 1;
+    zoom: 1
 }
 
-/* IE6 */
-*:first-child + html .clearfix {
-    zoom: 1;
+.pb-20 {
+    padding-bottom: 20px
 }
 
-/* IE7 */
+.pb-30 {
+    padding-bottom: 30px
+}
+
+.pb-40 {
+    padding-bottom: 40px
+}
+
+
+.pb-50 {
+    padding-bottom: 50px
+}
+
+
+.pb-60 {
+    padding-bottom: 60px
+}
+
+
+.pb-10 {
+    padding-bottom: 10px
+}
+
+.pt-10 {
+    padding-top: 10px
+}
+
+.pt-20 {
+    padding-top: 20px
+}
+
+.pt-30 {
+    padding-top: 30px
+}
+
+.pt-40 {
+    padding-top: 40px
+}
+
+.pt-50 {
+    padding-top: 50px
+}
+
+.pt-60 {
+    padding-top: 60px
+}
+
+.mt-25
+{
+    margin-top: 25px;
+}

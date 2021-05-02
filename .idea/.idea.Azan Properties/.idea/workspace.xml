@@ -4,7 +4,21 @@
     <projectFile>Azan Properties.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Workspace Update" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_facebook_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_instagram_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_linkdin_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_twitter_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/logo_footer.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +47,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
       <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
@@ -42,12 +55,13 @@
       <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Content/common.css" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -131,7 +145,8 @@
       <updated>1619770223843</updated>
       <workItem from="1619770230434" duration="234000" />
       <workItem from="1619770662535" duration="125000" />
-      <workItem from="1619849635862" duration="9303000" />
+      <workItem from="1619849635862" duration="9306000" />
+      <workItem from="1619940648553" duration="2975000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>

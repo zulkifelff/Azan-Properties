@@ -1,17 +1,53 @@
 ﻿<footer>
 
+    <div class="container row-gutters-void pb-60 pt-60">
+        <div class="col-md-3 col-sm-12">
+            <img src="~/Content/Graphical Assets/Common/logo_footer.svg" alt="Azan Properties Logo"/>
+        </div>
+
+        <div class="col-md-9 col-sm-12 mt-25">
+            <ul class="footer-links-list">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About Us", "About", "Home")</li>
+                <li>@Html.ActionLink("Apartment", "Apartment", "Property")</li>
+                <li>@Html.ActionLink("Property", "Index", "Property")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                <li>@Html.ActionLink("Privacy Policy", "Privacy", "Home")</li>
+                <li>@Html.ActionLink("Terms & Condition", "TermOfUser", "Home")</li>
+
+            </ul>
+        </div>
+    </div>
+
 </footer>
 
 <section class="sm-footer-design">
-    <div class="container row-gutters-void">
-        <div class="pull-left">
+    <div class="container row-gutters-void pt-30 pb-20">
+        <div class="col-md-4 col-sm-12">
             <span class="sm-footer-copyright">
                 &copy; @DateTime.Now.Year Azan Properties.
                 All Right Reserved.
             </span>
         </div>
 
-        <div class="pull-right">
+        <div class="col-md-8 col-sm-12 sm-footer-link-area">
+
+            <span class="sm-footer-links facebook">
+                <a href="#" target="_blank"></a>
+            </span>
+
+            <span class="sm-footer-links twitter">
+                <a href="#" target="_blank"></a>
+            </span>
+
+            <span class="sm-footer-links linkedin">
+                <a href="#" target="_blank"></a>
+            </span>
+
+            <span class="sm-footer-links instagram">
+                <a href="#" target="_blank"></a>
+            </span>
+
 
         </div>
     </div>

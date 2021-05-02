@@ -133,6 +133,15 @@
         <Content Include="Content\common.scss" />
         <Content Include="Content\Graphical Assets\About Us\banner_about_us.jpg" />
         <Content Include="Content\Graphical Assets\Common\icon_facebook.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_facebook_footer.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_instagram.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_instagram_footer.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_linkdin.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_linkdin_footer.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_twitter.svg" />
+        <Content Include="Content\Graphical Assets\Common\icon_twitter_footer.svg" />
+        <Content Include="Content\Graphical Assets\Common\logo_footer.svg" />
+        <Content Include="Content\Graphical Assets\Common\logo_header.svg" />
         <Content Include="Content\Graphical Assets\Customer Request\banner_custimer_request.jpg" />
         <Content Include="Content\Graphical Assets\Home\banner_home.jpg" />
         <Content Include="Content\Graphical Assets\Home\banner_home_01.jpg" />

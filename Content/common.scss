@@ -1,7 +1,9 @@
 ﻿//colors
 $white: rgba(255, 255, 255, 1);
 $color_cyprus_approx: rgba(0, 59, 73, 1);
-$color_cyprus_4_approx: rgba(0, 59, 73, 0.04);
+$black: rgba(0, 0, 0, 1);
+$color_alabaster_approx: rgba(248, 248, 248, 1);
+$color_cyprus_4_approx: rgba(0, 59, 73, .04);
 
 //fonts
 $font_0: 'Poppins';
@@ -13,6 +15,10 @@ $url_1: url('Graphical Assets/Common/icon_linkdin.svg');
 $url_2: url('Graphical Assets/Common/icon_twitter.svg');
 $url_3: url('Graphical Assets/Common/icon_instagram.svg');
 $url_4: url('Graphical Assets/Common/logo_header.svg');
+$url_5: url('Graphical Assets/Common/icon_facebook_footer.svg');
+$url_6: url('Graphical Assets/Common/icon_instagram_footer.svg');
+$url_7: url('Graphical Assets/Common/icon_linkdin_footer.svg');
+$url_8: url('Graphical Assets/Common/icon_twitter_footer.svg');
 
 body {
   height: 100%;
@@ -67,10 +73,6 @@ body {
   align-content: stretch;
 }
 
-.navbar-toggle .icon-bar {
-  background: $color_cyprus_approx 0 0 no-repeat padding-box;
-}
-
 .header-design {
   background: $white 0 0 no-repeat padding-box;
   //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -99,8 +101,73 @@ body {
   text-align: left;
   font-size: 14px;
   letter-spacing: 0;
-  color: rgba(0, 0, 0, 1);
+  color: $black;
   opacity: 1;
+  vertical-align: sub;
+}
+
+.sm-footer-links {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+
+  &.facebook {
+    background: transparent $url_5 0 0 no-repeat padding-box;
+    opacity: 1;
+  }
+
+  &.instagram {
+    background: transparent $url_6 0 0 no-repeat padding-box;
+    opacity: 1;
+  }
+
+  &.linkedin {
+    background: transparent $url_7 0 0 no-repeat padding-box;
+    opacity: 1;
+  }
+
+  &.twitter {
+    background: transparent $url_8 0 0 no-repeat padding-box;
+    opacity: 1;
+  }
+}
+
+.sm-footer-links {
+  height: 30px;
+}
+
+.sm-footer-links {
+  width: 30px;
+}
+
+.sm-footer-design {
+  background: $color_alabaster_approx 0 0 no-repeat padding-box;
+  border-top: 1px solid #959595;
+}
+
+.sm-footer-link-area {
+  text-align: right;
+}
+
+.footer-links-list {
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+.footer-links-list li {
+  float: left;
+  margin-right: 0;
+  margin-left: 30px
+}
+
+.footer-links-list li a {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #707070;
+  text-decoration: none;
 }
 
 .navbar-anchor-links {
@@ -128,10 +195,7 @@ body {
 
 @media(min-width: 768px) {
   .container > .navbar-header {
-    margin-top: 17px;
-    margin-bottom: 17px;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 17px 0;
   }
   .navbar-anchor-links li.special-navigation a {
     padding-top: 11px;
@@ -160,5 +224,34 @@ body {
     flex-direction: row;
     align-content: flex-end;
   }
+
+  .footer-links-list {
+    padding-left: 0;
+    list-style: none;
+    float: left;
+    margin: 0;
+  }
+
+  .footer-links-list li {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+
+
+  .sm-footer-links {
+    cursor: pointer;
+    margin-left: 0;
+  }
+  .sm-footer-links {
+    margin-right: 10px;
+  }
+
+  .sm-footer-link-area {
+    text-align: left;
+    margin-top: 10px;
+  }
 }
 
+.navbar-toggle .icon-bar {
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+}

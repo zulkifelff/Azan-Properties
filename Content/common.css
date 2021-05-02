@@ -46,10 +46,6 @@ body {
   align-content: stretch;
 }
 
-.navbar-toggle .icon-bar {
-  background: #003b49 0 0 no-repeat padding-box;
-}
-
 .header-design {
   background: white 0 0 no-repeat padding-box;
   box-shadow: 0 3px 24px #0000000A;
@@ -77,6 +73,67 @@ body {
   letter-spacing: 0;
   color: black;
   opacity: 1;
+  vertical-align: sub;
+}
+
+.sm-footer-links {
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.sm-footer-links.facebook {
+  background: transparent url("Graphical Assets/Common/icon_facebook_footer.svg") 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+.sm-footer-links.instagram {
+  background: transparent url("Graphical Assets/Common/icon_instagram_footer.svg") 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+.sm-footer-links.linkedin {
+  background: transparent url("Graphical Assets/Common/icon_linkdin_footer.svg") 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+.sm-footer-links.twitter {
+  background: transparent url("Graphical Assets/Common/icon_twitter_footer.svg") 0 0 no-repeat padding-box;
+  opacity: 1;
+}
+
+.sm-footer-links {
+  height: 30px;
+}
+
+.sm-footer-links {
+  width: 30px;
+}
+
+.sm-footer-design {
+  background: #f8f8f8 0 0 no-repeat padding-box;
+  border-top: 1px solid #959595;
+}
+
+.sm-footer-link-area {
+  text-align: right;
+}
+
+.footer-links-list {
+  padding-left: 0;
+  list-style: none;
+  float: right;
+  margin: 0;
+}
+
+.footer-links-list li {
+  float: left;
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.footer-links-list li a {
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #707070;
+  text-decoration: none;
 }
 
 .navbar-anchor-links li a {
@@ -98,10 +155,7 @@ body {
 
 @media (min-width: 768px) {
   .container > .navbar-header {
-    margin-top: 17px;
-    margin-bottom: 17px;
-    margin-right: 0;
-    margin-left: 0;
+    margin: 17px 0;
   }
 
   .navbar-anchor-links li.special-navigation a {
@@ -131,6 +185,35 @@ body {
     flex-direction: row;
     align-content: flex-end;
   }
+
+  .footer-links-list {
+    padding-left: 0;
+    list-style: none;
+    float: left;
+    margin: 0;
+  }
+
+  .footer-links-list li {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+
+  .sm-footer-links {
+    cursor: pointer;
+    margin-left: 0;
+  }
+
+  .sm-footer-links {
+    margin-right: 10px;
+  }
+
+  .sm-footer-link-area {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+.navbar-toggle .icon-bar {
+  background: #003b49 0 0 no-repeat padding-box;
 }
 
 /*# sourceMappingURL=common.css.map */
