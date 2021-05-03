@@ -80,6 +80,8 @@ body {
   display: inline-block;
   cursor: pointer;
   margin-left: 15px;
+  height: 30px;
+  width: 30px;
 }
 .sm-footer-links.facebook {
   background: transparent url("Graphical Assets/Common/icon_facebook_footer.svg") 0 0 no-repeat padding-box;
@@ -97,13 +99,8 @@ body {
   background: transparent url("Graphical Assets/Common/icon_twitter_footer.svg") 0 0 no-repeat padding-box;
   opacity: 1;
 }
-
-.sm-footer-links {
-  height: 30px;
-}
-
-.sm-footer-links {
-  width: 30px;
+.sm-footer-links a {
+  display: block;
 }
 
 .sm-footer-design {
@@ -121,13 +118,11 @@ body {
   float: right;
   margin: 0;
 }
-
 .footer-links-list li {
   float: left;
   margin-right: 0;
   margin-left: 30px;
 }
-
 .footer-links-list li a {
   font-weight: normal;
   font-size: 14px;
@@ -192,7 +187,6 @@ body {
     float: left;
     margin: 0;
   }
-
   .footer-links-list li {
     margin-right: 15px;
     margin-left: 0;
@@ -201,9 +195,6 @@ body {
   .sm-footer-links {
     cursor: pointer;
     margin-left: 0;
-  }
-
-  .sm-footer-links {
     margin-right: 10px;
   }
 
@@ -212,8 +203,30 @@ body {
     margin-top: 10px;
   }
 }
+footer {
+  background: #f8f8f8 0 0 no-repeat padding-box;
+}
+
+.property-details {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.property-details h3 {
+  text-align: left;
+  font-weight: 600;
+  font-size: 22px;
+  letter-spacing: 0;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
 .navbar-toggle .icon-bar {
   background: #003b49 0 0 no-repeat padding-box;
+}
+
+.property-listed-items .individual-item {
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=common.css.map */

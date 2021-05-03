@@ -164,6 +164,9 @@
         <Content Include="Content\Graphical Assets\Property\h4.jpg" />
         <Content Include="Content\Graphical Assets\Property\h5.jpg" />
         <Content Include="Content\Graphical Assets\Property\h6.jpg" />
+        <Content Include="Content\Styles\homepage.css" />
+        <Content Include="Content\Styles\homepage.css.map" />
+        <Content Include="Content\Styles\homepage.scss" />
         <Content Include="favicon.ico" />
         <Content Include="fonts\glyphicons-halflings-regular.svg" />
         <Content Include="Global.asax" />

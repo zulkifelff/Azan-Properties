@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_facebook_footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_instagram_footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_linkdin_footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_twitter_footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/logo_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/h3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Styles/homepage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
@@ -17,7 +20,7 @@
       <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -57,10 +60,11 @@
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/Content/common.css" />
+      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
     </changedPaths>
   </component>
@@ -84,6 +88,7 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="RoslynSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Azan Properties">
@@ -146,7 +151,7 @@
       <workItem from="1619770230434" duration="234000" />
       <workItem from="1619770662535" duration="125000" />
       <workItem from="1619849635862" duration="9306000" />
-      <workItem from="1619940648553" duration="2975000" />
+      <workItem from="1619940648553" duration="6605000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
