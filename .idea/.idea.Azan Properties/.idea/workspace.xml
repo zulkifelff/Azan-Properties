@@ -4,7 +4,14 @@
     <projectFile>Azan Properties.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,11 +51,11 @@
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Content/Site.css" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -135,6 +142,7 @@
       <workItem from="1619770662535" duration="125000" />
       <workItem from="1619849635862" duration="9306000" />
       <workItem from="1619940648553" duration="6629000" />
+      <workItem from="1620051459814" duration="3060000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>

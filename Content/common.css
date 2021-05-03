@@ -221,12 +221,73 @@ footer {
   opacity: 1;
 }
 
+.property-specifications {
+  padding-left: 0;
+  padding-right: 0;
+  margin-bottom: 10px;
+  clear: both;
+}
+.property-specifications .specification-name {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  color: black;
+  text-transform: capitalize;
+}
+.property-specifications .specification-value {
+  text-align: right;
+  color: #959595;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.64px;
+  text-transform: capitalize;
+}
+.property-specifications .specification-value.price {
+  text-align: right;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  color: #1d648f;
+  text-transform: capitalize;
+}
+
 .navbar-toggle .icon-bar {
   background: #003b49 0 0 no-repeat padding-box;
 }
 
 .property-listed-items .individual-item {
   margin-top: 30px;
+  border-radius: 12px;
+}
+
+.property-listed-items .individual-item {
+  padding-left: 0;
+}
+
+.property-listed-items .individual-item {
+  padding-right: 15px;
+}
+
+.property-details-btn {
+  background: #003B49 0 0 no-repeat padding-box;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  width: 100%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 0 solid transparent;
+}
+
+.all-layering {
+  clear: both;
+  display: inline-block;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 0 24px #00000014;
 }
 
 /*# sourceMappingURL=common.css.map */
