@@ -1,0 +1,11 @@
+.search-banner-styling {
+  height: 692px;
+  background-origin: padding-box;
+  background-size: contain;
+  background-color: #ffffff;
+  background-image: url("../Graphical Assets/Common/banner_contect_us@2x.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+/*# sourceMappingURL=search.css.map */
