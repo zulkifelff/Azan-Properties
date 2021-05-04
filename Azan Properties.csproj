@@ -131,6 +131,8 @@
         <Content Include="Content\common.css" />
         <Content Include="Content\common.css.map" />
         <Content Include="Content\common.scss" />
+        <Content Include="Content\CustomFonts.css" />
+        <Content Include="Content\CustomFonts.scss" />
         <Content Include="Content\Graphical Assets\About Us\banner_about_us.jpg" />
         <Content Include="Content\Graphical Assets\Common\icon_facebook.svg" />
         <Content Include="Content\Graphical Assets\Common\icon_facebook_footer.svg" />
@@ -164,9 +166,12 @@
         <Content Include="Content\Graphical Assets\Property\h4.jpg" />
         <Content Include="Content\Graphical Assets\Property\h5.jpg" />
         <Content Include="Content\Graphical Assets\Property\h6.jpg" />
+        <Content Include="Content\SemplicitaPro-Bold.woff" />
+        <Content Include="Content\SemplicitaPro.woff" />
         <Content Include="Content\Styles\homepage.css" />
         <Content Include="Content\Styles\homepage.css.map" />
         <Content Include="Content\Styles\homepage.scss" />
+        <Content Include="Content\Styles\privacy.scss" />
         <Content Include="favicon.ico" />
         <Content Include="fonts\glyphicons-halflings-regular.svg" />
         <Content Include="Global.asax" />

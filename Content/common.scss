@@ -1,4 +1,6 @@
-﻿//colors
+﻿@import 'CustomFonts';
+
+//colors
 $white: rgba(255, 255, 255, 1);
 $color_cyprus_approx: rgba(0, 59, 73, 1);
 $black: rgba(0, 0, 0, 1);
@@ -320,17 +322,15 @@ footer {
   padding-right: 15px;
 }
 
-.property-specifications
-{
+.property-specifications {
   //clear: both;
 }
 
-.property-details-btn
-{
+.property-details-btn {
   background: #003B49 0 0 no-repeat padding-box;
   border-radius: 6px;
   font-weight: 500;
-  font-size:14px;
+  font-size: 14px;
   text-align: center;
   letter-spacing: 0;
   color: #FFFFFF;
@@ -340,10 +340,26 @@ footer {
   border: 0 solid transparent;
 }
 
-.all-layering
-{
+.all-layering {
   clear: both;
   display: inline-block;
   background: #FFFFFF 0 0 no-repeat padding-box;
   box-shadow: 0 0 24px #00000014;
 }
+
+.page-banner {
+  height: 368px;
+  opacity: 1;
+}
+
+
+.page-banner-container h1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'SemplicitaPro', serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+

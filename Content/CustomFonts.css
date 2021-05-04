@@ -1,0 +1,12 @@
+@font-face {
+  font-family: SemplicitaPro;
+  src: url("../Content/SemplicitaPro.Woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: SemplicitaProBold;
+  src: url("../Content/SemplicitaPro-Bold.Woff");
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=CustomFonts.css.map */

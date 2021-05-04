@@ -1,3 +1,13 @@
+@font-face {
+  font-family: SemplicitaPro;
+  src: url("../Content/SemplicitaPro.Woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: SemplicitaProBold;
+  src: url("../Content/SemplicitaPro-Bold.Woff");
+  font-weight: bold;
+}
 body {
   height: 100%;
   width: 100%;
@@ -288,6 +298,21 @@ footer {
   display: inline-block;
   background: #FFFFFF 0 0 no-repeat padding-box;
   box-shadow: 0 0 24px #00000014;
+}
+
+.page-banner {
+  height: 368px;
+  opacity: 1;
+}
+
+.page-banner-container h1 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "SemplicitaPro", serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
 }
 
 /*# sourceMappingURL=common.css.map */

@@ -1,0 +1,28 @@
+﻿.page-banner {
+  opacity: 1;
+  background: transparent url('../Graphical Assets/Privacy and terms of use/banner_tou.jpg') 0 0 no-repeat padding-box;
+}
+
+.page-banner {
+  display: flex;
+  align-items: center;
+}
+
+.privacy-content-main h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'SemplicitaPro', serif;
+  letter-spacing: 0;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.privacy-content-main p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000000;
+}
+
