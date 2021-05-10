@@ -1,0 +1,87 @@
+﻿.property-details-banner-styling {
+  height: 346px;
+  background-origin: padding-box;
+  background-size: contain;
+  background-color: #FFF;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.property-details-banner-styling
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.property-details-banner-styling h1
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  font-family: SemplicitaProBold, serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+
+.heading-detail-design
+{
+  text-align: left;
+  font-weight: bold;
+  font-family: SemplicitaProBold, serif;
+  letter-spacing: 0;
+  font-size: 28px;
+  color: #000000;
+  text-transform: capitalize;
+  margin: 0 0;
+}
+
+.content-detail-design
+{
+  text-align: left;
+  font-weight: normal;
+  letter-spacing: 0;
+  font-size: 16px;
+  color: #000000;
+  margin: 0 0;
+}
+
+.property-gallery img
+{
+  border-radius: 12px;
+}
+
+
+
+
+.table.property-detail-table > thead > tr > th {
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: #000000;
+  font-family: SemplicitaPro, serif;
+}
+
+.table.property-detail-table > thead > tr
+{
+  background: #F6F6F6 0 0 no-repeat padding-box;
+  border-radius: 12px 12px 0 0;
+}
+
+
+.table.property-detail-table > tbody >tr >td
+{
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #000000;
+}
+
+.table.property-detail-table > thead > tr > th, .table.property-detail-table > tbody > tr > th, .table.property-detail-table > tfoot > tr > th, .table.property-detail-table > thead > tr > td, .table.property-detail-table > tbody > tr > td, .table.property-detail-table > tfoot > tr > td {
+  padding: 15px 0;
+}

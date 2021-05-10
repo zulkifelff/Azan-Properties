@@ -175,6 +175,7 @@
         <Content Include="Content\Styles\homepage.css.map" />
         <Content Include="Content\Styles\homepage.scss" />
         <Content Include="Content\Styles\privacy.scss" />
+        <Content Include="Content\Styles\propertyDetail.scss" />
         <Content Include="Content\Styles\search.scss" />
         <Content Include="favicon.ico" />
         <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -190,6 +191,7 @@
         <Content Include="Scripts\jquery.validate.min.js" />
         <Content Include="Scripts\jquery.validate.unobtrusive.js" />
         <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+        <Content Include="Scripts\lightgallery-all.js" />
         <Content Include="Scripts\modernizr-2.8.3.js" />
         <Content Include="Scripts\site.js" />
         <Content Include="Views\Home\Inquiry.cshtml" />
@@ -197,6 +199,7 @@
         <Content Include="Views\Home\TermOfUser.cshtml" />
         <Content Include="Views\Property\Apartment.cshtml" />
         <Content Include="Views\Property\Index.cshtml" />
+        <Content Include="Views\Property\PropertyDetail.cshtml" />
         <Content Include="Views\Search\Index.cshtml" />
         <Content Include="Views\Shared\_Footer.cshtml" />
         <Content Include="Views\Shared\_Header.cshtml" />

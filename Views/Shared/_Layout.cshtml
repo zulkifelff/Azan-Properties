@@ -10,10 +10,10 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
+@Scripts.Render("~/bundles/jquery")
 @RenderPage("_Header.cshtml")
 @RenderBody()
 @RenderPage("_Footer.cshtml")
-@Scripts.Render("~/bundles/jquery")
 @Scripts.Render("~/bundles/bootstrap")
 @Scripts.Render("~/bundles/site")
 @RenderSection("scripts", required: false)

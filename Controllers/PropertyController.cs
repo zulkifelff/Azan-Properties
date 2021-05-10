@@ -16,5 +16,12 @@ namespace Azan_Properties.Controllers
             ViewBag.Message = "Your Property page.";
             return View();
         }
+
+
+        public ActionResult PropertyDetail(string incomingId)
+        {
+            ViewBag.Message = "Your Property page.";
+            return View();
+        }
     }
 }

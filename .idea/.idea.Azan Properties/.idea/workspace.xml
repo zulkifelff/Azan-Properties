@@ -7,16 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Search Page Shit">
+      <change afterPath="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/lightgallery-all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/PropertyController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/PropertyController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Search/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Search/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,6 @@
       <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
       <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
-      <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
@@ -57,18 +57,21 @@
       <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_kit.fontawesome.com_bd7f11377e.js" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
       <option value="$PROJECT_DIR$/Content/CustomFonts.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/privacy.scss" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/Views/Home/Privacy.cshtml" />
       <option value="$PROJECT_DIR$/Controllers/SearchController.cs" />
       <option value="$PROJECT_DIR$/Content/Styles/search.css" />
       <option value="$PROJECT_DIR$/Content/Styles/search.scss" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -158,7 +161,7 @@
       <workItem from="1619940648553" duration="6629000" />
       <workItem from="1620051459814" duration="5976000" />
       <workItem from="1620138628919" duration="6946000" />
-      <workItem from="1620644435844" duration="2327000" />
+      <workItem from="1620644435844" duration="5497000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -195,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619850065434</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Search Page Shit">
+      <created>1620647073585</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1620647073585</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +231,8 @@
     <MESSAGE value="Assets: Images Added" />
     <MESSAGE value="File Setup Initial" />
     <MESSAGE value="Workspace Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workspace Update" />
+    <MESSAGE value="Search Page Shit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Search Page Shit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
