@@ -1,4 +1,4 @@
-﻿.property-details-banner-styling {
+.property-details-banner-styling {
   height: 346px;
   background-origin: padding-box;
   background-size: contain;
@@ -7,16 +7,14 @@
   background-position: right top;
 }
 
-.property-details-banner-styling
-{
+.property-details-banner-styling {
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
   justify-content: space-around;
 }
 
-.property-details-banner-styling h1
-{
+.property-details-banner-styling h1 {
   text-align: center;
   font-weight: bold;
   font-size: 50px;
@@ -26,9 +24,7 @@
   text-transform: capitalize;
 }
 
-
-.heading-detail-design
-{
+.heading-detail-design {
   text-align: left;
   font-weight: bold;
   font-family: SemplicitaProBold, serif;
@@ -39,8 +35,7 @@
   margin: 0 0;
 }
 
-.content-detail-design
-{
+.content-detail-design {
   text-align: left;
   font-weight: normal;
   letter-spacing: 0;
@@ -49,13 +44,9 @@
   margin: 0 0;
 }
 
-.property-gallery img
-{
+.property-gallery img {
   border-radius: 12px;
 }
-
-
-
 
 .table.property-detail-table > thead > tr > th {
   text-align: center;
@@ -66,15 +57,12 @@
   font-family: SemplicitaPro, serif;
 }
 
-.table.property-detail-table > thead > tr
-{
+.table.property-detail-table > thead > tr {
   background: #F6F6F6 0 0 no-repeat padding-box;
   border-radius: 12px 12px 0 0;
 }
 
-
-.table.property-detail-table > tbody >tr >td
-{
+.table.property-detail-table > tbody > tr > td {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: 0;
@@ -86,9 +74,7 @@
   padding: 15px 0;
 }
 
-
-.section-similar-property h4
-{
+.section-similar-property h4 {
   text-align: left;
   font-weight: bold;
   font-size: 35px;
@@ -98,3 +84,5 @@
   text-transform: capitalize;
   opacity: 1;
 }
+
+/*# sourceMappingURL=propertyDetail.css.map */
