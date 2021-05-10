@@ -315,4 +315,38 @@ footer {
   text-transform: capitalize;
 }
 
+.pagination.ittehad-style > li > a, .pagination.ittehad-style > li > span {
+  border: 0 solid #ddd;
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 0;
+  color: #292929;
+  margin-left: 0;
+  padding: 3px 8px;
+}
+
+.pagination.ittehad-style > li > a.active, .pagination.ittehad-style > li > span.active {
+  background: #3A3A3A 0 0 no-repeat padding-box;
+  color: #FFF;
+  border-radius: 50%;
+}
+
+.pagination.ittehad-style > li > a:hover {
+  background-color: transparent;
+  color: #292929;
+}
+
+.pagination.ittehad-style > li > a.disabled {
+  color: #7D7F85;
+}
+
+.pagination-show-result-design {
+  text-align: left;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0;
+  color: #000000;
+  opacity: 1;
+}
+
 /*# sourceMappingURL=common.css.map */

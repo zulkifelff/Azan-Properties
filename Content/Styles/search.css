@@ -1,11 +1,18 @@
 .search-banner-styling {
-  height: 692px;
+  height: 346px;
   background-origin: padding-box;
   background-size: contain;
   background-color: white;
   background-image: url("../Graphical Assets/Common/banner_contect_us@2x.png");
   background-repeat: no-repeat;
   background-position: right top;
+}
+
+.search-banner-styling {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
 }
 
 .search-container-styling {
@@ -86,6 +93,17 @@
   padding: 16px 48px;
   float: left;
   border: 0 solid transparent;
+}
+
+.search-property-grid h2.heading {
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: SemplicitaProBold, serif;
+  letter-spacing: 0;
+  color: #101F41;
+  text-transform: capitalize;
+  opacity: 1;
 }
 
 /*# sourceMappingURL=search.css.map */
