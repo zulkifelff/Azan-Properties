@@ -1,0 +1,40 @@
+﻿.page-banner {
+  opacity: 1;
+  background: transparent url('../Graphical Assets/About Us/banner_about_us.jpg') 0 0 no-repeat padding-box;
+}
+
+.page-banner {
+  display: flex;
+  align-items: center;
+}
+
+.page-banner .heading-detail-design
+{
+  text-align: center;
+  font-size: 50px;
+  font-family: SemplicitaPro, serif;
+
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.about-content-main h2 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 35px;
+  font-family: 'SemplicitaPro', serif;
+  letter-spacing: 0;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.about-content-main p {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000000;
+}
+

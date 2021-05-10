@@ -7,7 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Property Detail Committed" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Styles/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/About.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/About.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +43,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Muhammad Zulkifel/source/repos/Azan Properties/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/db/87a6508a/LinkExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -70,6 +74,9 @@
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Styles/About.scss" />
+      <option value="$PROJECT_DIR$/Content/Styles/about.scss" />
+      <option value="$PROJECT_DIR$/Views/Home/About.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -159,7 +166,8 @@
       <workItem from="1619940648553" duration="6629000" />
       <workItem from="1620051459814" duration="5976000" />
       <workItem from="1620138628919" duration="6946000" />
-      <workItem from="1620644435844" duration="6617000" />
+      <workItem from="1620644435844" duration="6669000" />
+      <workItem from="1620658625283" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
