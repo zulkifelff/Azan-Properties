@@ -40,6 +40,7 @@ namespace Azan_Properties.Controllers
         public ActionResult Inquiry()
         {
             ViewBag.Message = "Your Inquiry Page.";
+
             return View();
         }
     }

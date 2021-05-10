@@ -1,0 +1,55 @@
+.page-banner {
+  opacity: 1;
+  background: transparent url("../Graphical Assets/Customer Request/banner_custimer_request.jpg") 0 0 no-repeat padding-box;
+}
+
+.page-banner {
+  display: flex;
+  align-items: center;
+}
+
+.page-banner .heading-detail-design {
+  text-align: left;
+  font-size: 50px;
+  font-family: SemplicitaPro, serif;
+  letter-spacing: 0;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.inquiry-content-main h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "SemplicitaPro", serif;
+  letter-spacing: 0;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.inquiry-content-main p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.inquiry-card {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 0 24px #00000011;
+  border-radius: 12px;
+  padding: 35px 35px;
+}
+
+.inquiry-card .card-heading {
+  text-align: left;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: SemplicitaPro, serif;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+/*# sourceMappingURL=inquiry.css.map */
