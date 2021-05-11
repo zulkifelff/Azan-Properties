@@ -7,7 +7,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Starting Inquiry Page" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Starting Inquiry Page">
+      <change afterPath="$PROJECT_DIR$/Content/Custom-Checkbox.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,8 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,11 +77,9 @@
       <option value="$PROJECT_DIR$/Controllers/SearchController.cs" />
       <option value="$PROJECT_DIR$/Content/Styles/search.css" />
       <option value="$PROJECT_DIR$/Content/Styles/search.scss" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
       <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" />
@@ -74,10 +89,15 @@
       <option value="$PROJECT_DIR$/Views/Home/About.cshtml" />
       <option value="$PROJECT_DIR$/Views/Inquiry/Index.cshtml" />
       <option value="$PROJECT_DIR$/Controllers/Inquiry.cs" />
-      <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Content/Styles/inquiry.css" />
-      <option value="$PROJECT_DIR$/Content/Styles/inquiry.scss" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Content/Custom-Checkbox.scss" />
+      <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+      <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.ts" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" />
       <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Styles/inquiry.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -102,6 +122,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\JetBrains Rider 211.6693.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Azan Properties">
@@ -169,6 +190,7 @@
       <workItem from="1620138628919" duration="6946000" />
       <workItem from="1620644435844" duration="6669000" />
       <workItem from="1620658625283" duration="2887000" />
+      <workItem from="1620719824072" duration="8035000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>

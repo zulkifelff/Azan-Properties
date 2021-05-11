@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.PerformanceData;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Maddalena;
+using Newtonsoft.Json;
 
 namespace Azan_Properties.Controllers
 {
@@ -42,6 +45,18 @@ namespace Azan_Properties.Controllers
             ViewBag.Message = "Your Inquiry Page.";
 
             return View();
+        }
+
+        public JsonResult GetAllCountry()
+        {
+            var getAllCountry=Country.All.ToList();
+            return Json(getAllCountry, JsonRequestBehavior.AllowGet);
+        }
+        public JsonResult FindCity(string countryName)
+        {
+
+            var countryDetail=Country.All.Where(x=>x.OfficialName==countryName);
+            return Json(countryDetail, JsonRequestBehavior.AllowGet);
         }
     }
 }

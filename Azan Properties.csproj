@@ -42,7 +42,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Countries, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>packages\CountriesExtended.1.0.0\lib\netstandard2.0\Countries.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed">
+      <HintPath>packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -133,6 +140,7 @@
     <Content Include="Content\common.css" />
     <Content Include="Content\common.css.map" />
     <Content Include="Content\common.scss" />
+    <Content Include="Content\Custom-Checkbox.scss" />
     <Content Include="Content\CustomFonts.css" />
     <Content Include="Content\CustomFonts.scss" />
     <Content Include="Content\Graphical Assets\About Us\banner_about_us.jpg" />
@@ -202,6 +210,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Inquiry\inquiry.js" />
     <Content Include="Scripts\interaction.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
