@@ -7,22 +7,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Starting Inquiry Page">
-      <change afterPath="$PROJECT_DIR$/Content/Custom-Checkbox.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" afterDir="false" />
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_apartments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_happy_customer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_property.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_to-do-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/ContactQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/Homepage/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Azan Properties/v16/.suo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +58,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Views/Inquiry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/4a/fdfc6f8c/ActionMethodDispatcher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/0a/9a06fe23/Controller.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/03C98CFC-8623-445A-8DB7-B66C6FFA5DEF/db/87a6508a/LinkExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -63,11 +66,9 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
-      <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
-      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_kit.fontawesome.com_bd7f11377e.js" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
@@ -78,7 +79,6 @@
       <option value="$PROJECT_DIR$/Content/Styles/search.css" />
       <option value="$PROJECT_DIR$/Content/Styles/search.scss" />
       <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
@@ -92,12 +92,19 @@
       <option value="$PROJECT_DIR$/Content/Styles/inquiry.css" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Content/Custom-Checkbox.scss" />
-      <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
       <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.ts" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
-      <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" />
-      <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/inquiry.scss" />
+      <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
+      <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" />
+      <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
+      <option value="$PROJECT_DIR$/Scripts/Homepage/homepage.js" />
+      <option value="$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml" />
+      <option value="$PROJECT_DIR$/Models/ContactQuery.cs" />
+      <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
+      <option value="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -190,7 +197,8 @@
       <workItem from="1620138628919" duration="6946000" />
       <workItem from="1620644435844" duration="6669000" />
       <workItem from="1620658625283" duration="2887000" />
-      <workItem from="1620719824072" duration="8035000" />
+      <workItem from="1620719824072" duration="10580000" />
+      <workItem from="1620806822625" duration="6701000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -278,6 +286,66 @@
     <MESSAGE value="Property Detail Committed" />
     <MESSAGE value="Starting Inquiry Page" />
     <option name="LAST_COMMIT_MESSAGE" value="Starting Inquiry Page" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Views/Home/Index.cshtml</url>
+          <line>91</line>
+          <properties documentPath="C:\Users\Muhammad Zulkifel\source\repos\Azan Properties\Views\Home\Index.cshtml" initialLine="91" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml</url>
+          <line>7</line>
+          <properties documentPath="C:\Users\Muhammad Zulkifel\source\repos\Azan Properties\Views\Home\ContactUsQuery.cshtml" initialLine="6" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/HomeController.cs</url>
+          <line>65</line>
+          <properties documentPath="C:\Users\Muhammad Zulkifel\source\repos\Azan Properties\Controllers\HomeController.cs" initialLine="65" containingFunctionPresentation="method 'ContactUsQuery'">
+            <startOffsets>
+              <option value="1622" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1651" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Controllers/HomeController.cs</url>
+          <line>74</line>
+          <properties documentPath="C:\Users\Muhammad Zulkifel\source\repos\Azan Properties\Controllers\HomeController.cs" initialLine="72" containingFunctionPresentation="method 'ContactUsQuery'">
+            <startOffsets>
+              <option value="1936" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1950" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

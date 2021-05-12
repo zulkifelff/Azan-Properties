@@ -1,21 +1,221 @@
-﻿.feature-subheading-styling
-{
+﻿//colors
+$black: rgba(0, 0, 0, 1);
+$color_blue_zodiac_approx: rgba(16, 31, 65, 1);
+$color_cyprus_approx: rgba(0, 59, 73, 1);
+$color_deep_cerulean_approx: rgba(17, 122, 175, 1);
+$white: rgba(255, 255, 255, 1);
+$color_wild_sand_approx: rgba(246, 246, 246, 1);
+$color_alabaster_approx: rgba(251, 251, 251, 1);
+
+.feature-subheading-styling {
   text-align: center;
-  font-size:16px;
+  font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
-  color: #000000;
+  color: $black;
   text-transform: uppercase;
   opacity: 1;
 }
-
-.feature-heading-styling
-{
+.feature-heading-styling {
   text-align: center;
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 0;
-  color: #101F41;
+  color: $color_blue_zodiac_approx;
   text-transform: capitalize;
   opacity: 1;
+}
+.facts-section {
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+  opacity: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.facts-styling {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.44px;
+  color: $color_deep_cerulean_approx;
+}
+.fact-text-styling {
+  text-align: center;
+  font-weight: normal;
+  font-family: 'SemplicitaPro', 'serif';
+  font-size: 22px;
+  letter-spacing: 0.24px;
+  color: $black;
+}
+.fact-block {
+  position: relative;
+  .divider-style {
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 0 24px #0000000F;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  &:hover {
+    //Instead of the line below you could use @include transition-timing-function($function-1, $function-2, $function-3, $function-4, $function-5, $function-6, $function-7, $function-8, $function-9, $function-10)
+    transition-timing-function: ease-out;
+    //Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+    transition: height 0.6s;
+    top: 5px;
+  }
+  img {
+    max-height: 109px;
+  }
+}
+.contact-us-section {
+  .styling-div {
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 24px #0000001A;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 12px;
+  }
+  .form-section {
+    padding: 83px 30px;
+    .form-subheading {
+      text-align: left;
+      font-weight: normal;
+      font-size: 16px;
+      letter-spacing: 0;
+      color: $black;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    .form-mainheading {
+      text-align: left;
+      font-weight: bold;
+      font-family: 'SemplicitaProBold', 'serif';
+      font-size: 40px;
+      letter-spacing: 0;
+      color: $color_blue_zodiac_approx;
+      text-transform: capitalize;
+      opacity: 1;
+    }
+    form {
+      label {
+        text-align: left;
+        font-weight: normal;
+        font-size: 13px;
+        letter-spacing: 0;
+        color: $black;
+        opacity: 1;
+      }
+      input {
+        background: $color_wild_sand_approx 0 0 no-repeat padding-box;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 8px;
+        height: 40px;
+        &:focus {
+          background: $color_alabaster_approx 0 0 no-repeat padding-box;
+          border: 1px solid $color_cyprus_approx;
+        }
+      }
+      textarea {
+        background: $color_wild_sand_approx 0 0 no-repeat padding-box;
+        //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+        border-radius: 8px;
+        height: 110px;
+      }
+    }
+  }
+}
+.btn-submit {
+  font-family: 'serif';
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: $white;
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+  //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+  border-radius: 8px;
+  text-align: center;
+  padding: 18px 70px;
+  border: 0 solid transparent;
+  margin-right: 15px;
+}
+.flip-section .view-more-button {
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font-weight: 14;
+  letter-spacing: 0;
+  color: $white;
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 0 solid transparent;
+  width: 270px;
+}
+
+.sideline-css
+{
+
+}
+
+
+.sideline-css .line
+{
+  width: 20px;
+  background-color: black;
+  border: 0.5px solid darkgoldenrod;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.sideline-css .line.secondary
+{
+  width: 570px;
+  background-color:  rgba(0,0,0,0.25);
+  border: 0.5px solid rgba(0,0,0,0.25);
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.line, .text
+{
+  float:left;
+}
+
+.sideline-css .text
+{
+  padding-left:10px;padding-right:10px;
+
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 5.27px;
+  color: #000000;
+}
+
+.navigate-slip
+{
+  float: left;
+}
+
+.navigate-slip a
+{
+  font-size: 20px;
+  color: #0f0f0f;
+  font-weight: normal;
+
+}
+
+.sideline-css
+{
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.navigate-slip a.disabled
+{
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(0,0,0,0.4);
+}
+.sideline-css
+{
+  float: left;
 }

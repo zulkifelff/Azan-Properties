@@ -4,6 +4,7 @@ using System.Diagnostics.PerformanceData;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Azan_Properties.Models;
 using Maddalena;
 using Newtonsoft.Json;
 
@@ -57,6 +58,21 @@ namespace Azan_Properties.Controllers
 
             var countryDetail=Country.All.Where(x=>x.OfficialName==countryName);
             return Json(countryDetail, JsonRequestBehavior.AllowGet);
+        }
+
+        [HttpPost]
+        public ActionResult ContactUsQuery(ContactQuery CQ)
+        {
+            int firstName = CQ.FirstName;
+            string lastName = CQ.LastName;
+            string message = CQ.Message;
+            string subject = CQ.Subject;
+            string email = CQ.Email;
+
+            System.Random random = new System.Random();
+            ViewBag.RandomID = random.Next(10, 50);
+
+            return View();
         }
     }
 }

@@ -253,8 +253,130 @@
     </div>
 </div>
 </section>
+
+@* Facts and Number Section *@
+<section class="mt-100 facts-section">
+    <div class="container row-gutters-void">
+        <div class="col-sm-6 col-md-3 fact-block text-center">
+            <div class="divider-style">
+                <img src="~/Content/Graphical Assets/Home/icon_property.svg" alt="Property Count"/>
+                <p class="facts-styling">100+</p>
+                <span class="fact-text-styling">Property</span>
+            </div>
+
+        </div>
+
+
+        <div class="col-sm-6 col-md-3 fact-block text-center">
+            <div class="divider-style">
+                <img src="~/Content/Graphical Assets/Home/icon_apartments.svg" alt="Apartment Count"/>
+                <p class="facts-styling">120+</p>
+                <span class="fact-text-styling">Apartment</span>
+            </div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-3 fact-block text-center">
+
+            <div class="divider-style">
+                <img src="~/Content/Graphical Assets/Home/icon_happy_customer.svg" alt="Customer Count"/>
+                <p class="facts-styling">150+</p>
+                <span class="fact-text-styling">Happy Customer</span>
+            </div>
+
+        </div>
+
+        <div class="col-sm-6 col-md-3 fact-block text-center">
+
+            <div class="divider-style">
+                <img src="~/Content/Graphical Assets/Home/icon_to-do-list.svg" alt="Customer Count"/>
+                <p class="facts-styling">180+</p>
+                <span class="fact-text-styling">Inquiries</span>
+            </div>
+
+
+        </div>
+
+    </div>
+</section>
+
+
+@* Flip Section *@
+<section class="clearfix">
+    <div class="container row-gutters-void">
+            @RenderPage("~/Views/Shared/_FilpSection.cshtml")
+
+    </div>
+</section>
+
+@* Contact Us Section *@
+<section class="mt-100 contact-us-section">
+    <div class="container styling-div row-gutters-void">
+        <div class="col-md-7 col-sm-12 form-section">
+            <p class="form-subheading">Contact Us</p>
+            <h4 class="form-mainheading">Get In Touch</h4>
+
+            <form class="" action="/Home/ContactUsQuery" method="post">
+                <div class="row ml-0 mt-40">
+
+                    <div class="col-sm-6 pl-0 col-md-6">
+                        <label>First Name</label>
+                        <input required placeholder="Enter First Name" class="form-control" type="text" id="FirstName" name="FirstName">
+                    </div>
+
+                    <div class="col-sm-6 pl-0 col-md-6">
+                        <label>Last Name</label>
+                        <input required placeholder="Enter Last Name" class="form-control" type="text" id="LastName" name="LastName">
+                    </div>
+
+                </div>
+
+
+                <div class="row ml-0 mt-40">
+
+                    <div class="col-sm-6 col-md-6 pl-0">
+                        <label>Email</label>
+                        <input required placeholder="Enter Email" class="form-control" type="Email" id="Email" name="Email">
+                    </div>
+
+                    <div class="col-sm-6 col-md-6 pl-0">
+                        <label>Subject</label>
+                        <input placeholder="Enter Subject" class="form-control" type="text" id="Subject" name="Subject">
+                    </div>
+
+                </div>
+
+                <div class="row ml-0 mt-50">
+
+                    <div class="col-sm-12 col-md-12 pl-0">
+                        <label>Message</label>
+                        <textarea id="Message" name="Message" class="form-control"></textarea>
+                    </div>
+
+
+                </div>
+
+
+                <div class="row ml-0 mt-50">
+
+                                   <button class="btn-submit" type="submit">Submit</button>
+
+                                </div>
+
+
+            </form>
+        </div>
+
+        <div class="col-sm-12 col-md-5 pr-0">
+            <img src="~/Content/Graphical Assets/Home/map.jpg" class="img-responsive" alt="Map of Azan Property">
+
+        </div>
+    </div>
+</section>
+
 </div>
 
 
-@* <script src="https://kit.fontawesome.com/bd7f11377e.js" crossorigin="anonymous"></script> *@
+<script src="~/Scripts/Homepage/homepage.js">
 
+</script>

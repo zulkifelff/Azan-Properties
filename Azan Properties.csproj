@@ -129,6 +129,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactQuery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +174,10 @@
     <Content Include="Content\Graphical Assets\Home\h4.jpg" />
     <Content Include="Content\Graphical Assets\Home\h5.jpg" />
     <Content Include="Content\Graphical Assets\Home\h6.jpg" />
+    <Content Include="Content\Graphical Assets\Home\icon_apartments.svg" />
+    <Content Include="Content\Graphical Assets\Home\icon_happy_customer.svg" />
+    <Content Include="Content\Graphical Assets\Home\icon_property.svg" />
+    <Content Include="Content\Graphical Assets\Home\icon_to-do-list.svg" />
     <Content Include="Content\Graphical Assets\Home\map.jpg" />
     <Content Include="Content\Graphical Assets\Privacy and terms of use\banner_tou.jpg" />
     <Content Include="Content\Graphical Assets\Property Details\banner_property_details.jpg" />
@@ -210,6 +215,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\Homepage\homepage.js" />
     <Content Include="Scripts\Inquiry\inquiry.js" />
     <Content Include="Scripts\interaction.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -222,6 +228,8 @@
     <Content Include="Scripts\lightgallery-all.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\site.js" />
+    <Content Include="Views\Home\ContactUsQuery.cshtml" />
+    <Content Include="Views\Shared\_FilpSection.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

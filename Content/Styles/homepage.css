@@ -3,7 +3,7 @@
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
-  color: #000000;
+  color: black;
   text-transform: uppercase;
   opacity: 1;
 }
@@ -13,9 +13,183 @@
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 0;
-  color: #101F41;
+  color: #101f41;
   text-transform: capitalize;
   opacity: 1;
+}
+
+.facts-section {
+  background: #003b49 0 0 no-repeat padding-box;
+  opacity: 1;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.facts-styling {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.44px;
+  color: #117aaf;
+}
+
+.fact-text-styling {
+  text-align: center;
+  font-weight: normal;
+  font-family: "SemplicitaPro", "serif";
+  font-size: 22px;
+  letter-spacing: 0.24px;
+  color: black;
+}
+
+.fact-block {
+  position: relative;
+}
+.fact-block .divider-style {
+  background: white 0 0 no-repeat padding-box;
+  box-shadow: 0 0 24px #0000000F;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.fact-block:hover {
+  transition-timing-function: ease-out;
+  transition: height 0.6s;
+  top: 5px;
+}
+.fact-block img {
+  max-height: 109px;
+}
+
+.contact-us-section .styling-div {
+  background: white 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 24px #0000001A;
+  border-radius: 12px;
+}
+.contact-us-section .form-section {
+  padding: 83px 30px;
+}
+.contact-us-section .form-section .form-subheading {
+  text-align: left;
+  font-weight: normal;
+  font-size: 16px;
+  letter-spacing: 0;
+  color: black;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.contact-us-section .form-section .form-mainheading {
+  text-align: left;
+  font-weight: bold;
+  font-family: "SemplicitaProBold", "serif";
+  font-size: 40px;
+  letter-spacing: 0;
+  color: #101f41;
+  text-transform: capitalize;
+  opacity: 1;
+}
+.contact-us-section .form-section form label {
+  text-align: left;
+  font-weight: normal;
+  font-size: 13px;
+  letter-spacing: 0;
+  color: black;
+  opacity: 1;
+}
+.contact-us-section .form-section form input {
+  background: #f6f6f6 0 0 no-repeat padding-box;
+  border-radius: 8px;
+  height: 40px;
+}
+.contact-us-section .form-section form input:focus {
+  background: #fbfbfb 0 0 no-repeat padding-box;
+  border: 1px solid #003b49;
+}
+.contact-us-section .form-section form textarea {
+  background: #f6f6f6 0 0 no-repeat padding-box;
+  border-radius: 8px;
+  height: 110px;
+}
+
+.btn-submit {
+  font-family: "serif";
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0;
+  color: white;
+  background: #003b49 0 0 no-repeat padding-box;
+  border-radius: 8px;
+  text-align: center;
+  padding: 18px 70px;
+  border: 0 solid transparent;
+  margin-right: 15px;
+}
+
+.flip-section .view-more-button {
+  background: #003b49 0 0 no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  font-weight: 14;
+  letter-spacing: 0;
+  color: white;
+  text-transform: capitalize;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border: 0 solid transparent;
+  width: 270px;
+}
+
+.sideline-css .line {
+  width: 20px;
+  background-color: black;
+  border: 0.5px solid darkgoldenrod;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.sideline-css .line.secondary {
+  width: 570px;
+  background-color: rgba(0, 0, 0, 0.25);
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.line, .text {
+  float: left;
+}
+
+.sideline-css .text {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-size: 12px;
+  letter-spacing: 5.27px;
+  color: #000000;
+}
+
+.navigate-slip {
+  float: left;
+}
+
+.navigate-slip a {
+  font-size: 20px;
+  color: #0f0f0f;
+  font-weight: normal;
+}
+
+.sideline-css {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.navigate-slip a.disabled {
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sideline-css {
+  float: left;
 }
 
 /*# sourceMappingURL=homepage.css.map */
