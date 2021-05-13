@@ -1,15 +1,24 @@
 ﻿<link rel="stylesheet" href="~/Content/Styles/homepage.css"/>
+<link rel="stylesheet" href="~/Content/Styles/carousel.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+      integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
 @{ ViewBag.Title = "Home Page"; }
 <div style="min-height: 1000px" class="body-content">
+
+<section class="page-banner-section">
+@RenderPage("Carousel.cshtml")
+    </section>
 
 @* Featured Properties *@
 <section class="feature-section mt-100">
 <div class="container row-gutters-void">
     <div class="col-sm-12 col-md-12 row-gutters-void text-center">
-        <span class="feature-subheading-styling">Features</span>
+        <span class="feature-subheading-styling text-center">Features</span>
     </div>
     <div class="col-sm-12 col-md-12 row-gutters-void text-center">
-        <h2 class="feature-heading-styling mt-10"> Featured House With <br> Azan Properties</h2>
+        <h2 class="feature-heading-styling mt-10 text-center"> Featured House With <br> Azan Properties</h2>
     </div>
 </div>
 <div class="container row-gutters-void property-listed-items">
@@ -243,15 +252,15 @@
 
 
 </div>
-<div class="container row-gutters-void extra-functions mt-100">
-    <div class="navigation-property-set">
+
+</section>
+
+@* Flip Section *@
+<section class="clearfix">
+    <div class="container row-gutters-void">
+            @RenderPage("~/Views/Shared/_FilpSection.cshtml")
 
     </div>
-
-    <div class="navigation-all-property">
-
-    </div>
-</div>
 </section>
 
 @* Facts and Number Section *@
@@ -301,6 +310,101 @@
 </section>
 
 
+@* Testimonials Section *@
+<section class="mt-100 testimonials-section">
+
+    <div class="container row-gutters-void">
+        <div class="col-sm-12 col-md-12 row-gutters-void text-left">
+            <span class="feature-subheading-styling text-left">Testimonials</span>
+        </div>
+        <div class="col-sm-12 col-md-12 row-gutters-void text-left">
+            <h2 class="feature-heading-styling mt-10 text-left"> What others have to say <br>about us!</h2>
+        </div>
+    </div>
+
+    <div class="container row-gutters-void mt-50">
+
+
+        @* First Testimonial *@
+        <div class="item individual-item-testimonials">
+
+            <div class="inner-layering">
+                <div class="row basic-information">
+                    <img class="img-testimonials pull-left" alt="Testimonials Person 1" src="~/Content/Graphical Assets/Home/t1.png">
+
+                    <div class="pull-left testimonials-person marginize-testimonials">
+                        <h5 class="testimonials-person-name">Jacob Oliver</h5>
+                        <span class="testimonials-person-designation">Business owner at co.chart</span>
+                    </div>
+
+                    <div class="star-rating marginize-testimonials">
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star filled"></i>
+                        <i class="fas fa-star unfilled"></i>
+                    </div>
+
+                </div>
+
+                <div class="row basic-information">
+
+                    <div class="pull-left testimonials-person-message-section">
+                        <span class="testimonials-person-message">
+                            Great service, great quality would recommend with nothing more, nothing less.
+                            Thank you MSFDN and will use again in the future for sure.
+                        </span>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        @* Second Testimonial *@
+        <div class="item individual-item-testimonials">
+
+                        <div class="inner-layering">
+                            <div class="row basic-information">
+                                <img class="img-testimonials pull-left" alt="Testimonials Person 1" src="~/Content/Graphical Assets/Home/t1.png">
+
+                                <div class="pull-left testimonials-person marginize-testimonials">
+                                    <h5 class="testimonials-person-name">Jacob Oliver</h5>
+                                    <span class="testimonials-person-designation">Business owner at co.chart</span>
+                                </div>
+
+                                <div class="star-rating marginize-testimonials">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star unfilled"></i>
+                                </div>
+
+                            </div>
+
+                              <div class="row basic-information">
+
+                                                    <div class="pull-left testimonials-person-message-section">
+                                                        <span class="testimonials-person-message">
+                                                            Great service, great quality would recommend with nothing more, nothing less.
+                                                            Thank you MSFDN and will use again in the future for sure.
+                                                        </span>
+                                                    </div>
+
+
+
+                                                </div>
+
+                        </div>
+
+                    </div>
+
+    </div>
+</section>
 @* Flip Section *@
 <section class="clearfix">
     <div class="container row-gutters-void">
@@ -374,9 +478,17 @@
     </div>
 </section>
 
+
 </div>
 
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
+        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
+        crossorigin="anonymous"></script>
 
 <script src="~/Scripts/Homepage/homepage.js">
 
 </script>
+

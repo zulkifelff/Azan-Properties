@@ -1,0 +1,36 @@
+﻿.carousel-caption {
+  //bottom: 50%;
+
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.carousel-caption .heading
+{
+  text-align: center;
+  font-weight: normal;
+  font-family: SemplicitaPro, serif;
+  font-size: 52px;
+  letter-spacing: -0.73px;
+  color: #FFFFFF;
+  display: inline-block;
+  text-transform: capitalize;
+  border-bottom: 1px solid #FFF;
+  padding-bottom: 10px;
+}
+
+.carousel-caption .heading-property
+{
+  text-align: center;
+  font-size: 39px;
+  font-weight: bold;
+  display: inline-block;
+  font-family: SemplicitaProBold, serif;
+  letter-spacing: 12.09px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border-bottom: 1px solid #FFF;
+
+  padding-bottom: 10px;
+}

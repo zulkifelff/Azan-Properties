@@ -8,23 +8,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_apartments.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_happy_customer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_property.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/icon_to-do-list.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Models/ContactQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/Homepage/homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/banner_home.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/banner_home_01.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/banner_home_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t1.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t1/t1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t1/t1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t1@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t3/t3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t3/t3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Home/t3@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Styles/carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Views/Home/Carousel.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Homepage/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Homepage/homepage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -97,14 +103,16 @@
       <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
       <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" />
       <option value="$PROJECT_DIR$/Views/Home/TermOfUser.cshtml" />
-      <option value="$PROJECT_DIR$/Scripts/Homepage/homepage.js" />
       <option value="$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml" />
       <option value="$PROJECT_DIR$/Models/ContactQuery.cs" />
       <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
-      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/Site.css" />
-      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" />
+      <option value="$PROJECT_DIR$/Scripts/Homepage/homepage.js" />
+      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
+      <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
+      <option value="$PROJECT_DIR$/Views/Home/Carousel.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Styles/carousel.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -198,7 +206,8 @@
       <workItem from="1620644435844" duration="6669000" />
       <workItem from="1620658625283" duration="2887000" />
       <workItem from="1620719824072" duration="10580000" />
-      <workItem from="1620806822625" duration="6701000" />
+      <workItem from="1620806822625" duration="11130000" />
+      <workItem from="1620838029099" duration="4356000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -292,7 +301,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Views/Home/Index.cshtml</url>
-          <line>91</line>
+          <line>98</line>
           <properties documentPath="C:\Users\Muhammad Zulkifel\source\repos\Azan Properties\Views\Home\Index.cshtml" initialLine="91" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
             <startOffsets>

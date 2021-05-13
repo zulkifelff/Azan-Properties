@@ -1,5 +1,8 @@
+body {
+  background: #FBFBFB 0% 0% no-repeat padding-box;
+}
+
 .feature-subheading-styling {
-  text-align: center;
   font-size: 16px;
   font-weight: normal;
   letter-spacing: 0;
@@ -9,7 +12,6 @@
 }
 
 .feature-heading-styling {
-  text-align: center;
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 0;
@@ -190,6 +192,79 @@
 
 .sideline-css {
   float: left;
+}
+
+.individual-item-testimonials {
+  max-width: 538px;
+  float: left;
+  margin-right: 20px;
+}
+
+.individual-item-testimonials .inner-layering {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  border-radius: 12px;
+  padding: 49px 35px;
+}
+
+.img-testimonials {
+  border-radius: 6px;
+  height: 68px;
+  width: 68px;
+}
+
+.testimonials-person-name {
+  text-align: left;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 0;
+  color: #222222;
+  margin-top: 0;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.testimonials-person-designation {
+  text-align: left;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #A6A6A6;
+  text-transform: uppercase;
+}
+
+.fa-star.filled {
+  color: #fec300;
+  font-size: 11px;
+}
+
+.fa-star.unfilled {
+  color: #ececec;
+  font-size: 11px;
+}
+
+.testimonials-person {
+  margin-left: 35px;
+}
+
+.testimonials-person-message-section {
+  margin-left: 100px;
+  margin-right: 10px;
+}
+
+.basic-information .star-rating {
+  float: right;
+}
+
+.testimonials-person-message {
+  text-align: left;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  color: #222222;
+}
+
+.marginize-testimonials {
+  margin-top: 15px;
 }
 
 /*# sourceMappingURL=homepage.css.map */

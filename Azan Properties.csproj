@@ -179,6 +179,16 @@
     <Content Include="Content\Graphical Assets\Home\icon_property.svg" />
     <Content Include="Content\Graphical Assets\Home\icon_to-do-list.svg" />
     <Content Include="Content\Graphical Assets\Home\map.jpg" />
+    <Content Include="Content\Graphical Assets\Home\t1.png" />
+    <Content Include="Content\Graphical Assets\Home\t1.zip" />
+    <Content Include="Content\Graphical Assets\Home\t1@2x.png" />
+    <Content Include="Content\Graphical Assets\Home\t1\t1.png" />
+    <Content Include="Content\Graphical Assets\Home\t1\t1@2x.png" />
+    <Content Include="Content\Graphical Assets\Home\t3.png" />
+    <Content Include="Content\Graphical Assets\Home\t3.zip" />
+    <Content Include="Content\Graphical Assets\Home\t3@2x.png" />
+    <Content Include="Content\Graphical Assets\Home\t3\t3.png" />
+    <Content Include="Content\Graphical Assets\Home\t3\t3@2x.png" />
     <Content Include="Content\Graphical Assets\Privacy and terms of use\banner_tou.jpg" />
     <Content Include="Content\Graphical Assets\Property Details\banner_property_details.jpg" />
     <Content Include="Content\Graphical Assets\Property Details\image.jpg" />
@@ -194,6 +204,7 @@
     <Content Include="Content\Styles\about.css" />
     <Content Include="Content\Styles\about.css.map" />
     <Content Include="Content\Styles\about.scss" />
+    <Content Include="Content\Styles\carousel.scss" />
     <Content Include="Content\Styles\homepage.css" />
     <Content Include="Content\Styles\homepage.css.map" />
     <Content Include="Content\Styles\homepage.scss" />
@@ -228,6 +239,7 @@
     <Content Include="Scripts\lightgallery-all.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\site.js" />
+    <Content Include="Views\Home\Carousel.cshtml" />
     <Content Include="Views\Home\ContactUsQuery.cshtml" />
     <Content Include="Views\Shared\_FilpSection.cshtml" />
     <Content Include="Web.config" />
