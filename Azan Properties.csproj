@@ -141,8 +141,11 @@
     <Content Include="Content\common.css" />
     <Content Include="Content\common.css.map" />
     <Content Include="Content\common.scss" />
+    <Content Include="Content\Custom-Checkbox.css" />
+    <Content Include="Content\Custom-Checkbox.css.map" />
     <Content Include="Content\Custom-Checkbox.scss" />
     <Content Include="Content\CustomFonts.css" />
+    <Content Include="Content\CustomFonts.css.map" />
     <Content Include="Content\CustomFonts.scss" />
     <Content Include="Content\Graphical Assets\About Us\banner_about_us.jpg" />
     <Content Include="Content\Graphical Assets\Common\banner_contect_us.png" />
@@ -204,6 +207,8 @@
     <Content Include="Content\Styles\about.css" />
     <Content Include="Content\Styles\about.css.map" />
     <Content Include="Content\Styles\about.scss" />
+    <Content Include="Content\Styles\carousel.css" />
+    <Content Include="Content\Styles\carousel.css.map" />
     <Content Include="Content\Styles\carousel.scss" />
     <Content Include="Content\Styles\homepage.css" />
     <Content Include="Content\Styles\homepage.css.map" />
@@ -214,6 +219,9 @@
     <Content Include="Content\Styles\privacy.css" />
     <Content Include="Content\Styles\privacy.css.map" />
     <Content Include="Content\Styles\privacy.scss" />
+    <Content Include="Content\Styles\property.css" />
+    <Content Include="Content\Styles\property.css.map" />
+    <Content Include="Content\Styles\property.scss" />
     <Content Include="Content\Styles\propertyDetail.css" />
     <Content Include="Content\Styles\propertyDetail.css.map" />
     <Content Include="Content\Styles\propertyDetail.scss" />

@@ -1,10 +1,265 @@
 ﻿@model dynamic
 
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
+    ViewBag.Title = "Property Page";
 }
 
-<h2>title</h2>
+<link rel="stylesheet" href="../../Content/Styles/property.css"/>
+<section class="container-fluid row-gutters-void page-banner">
+    <div class="container row-gutters-void page-banner-container text-center">
+        <h1 class="text-center">Property Detail</h1>
+    </div>
+</section>
 
+<section class="mt-100 container container-styling-detail">
+
+    <h2 class="text-center">Gulberg City Center, Radisson Hotels</h2>
+
+    <div class="table-responsive mt-60">
+        <table>
+            <tbody>
+            <tr>
+                <td class="heading-table-design">
+                    Project Type
+                </td>
+
+                <td class="value-table-design">
+
+                    12 Kanal & 6 Marla
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Land Size
+                </td>
+
+                <td class="value-table-design">
+
+                    Residential and Commercial
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Installment Plan
+                </td>
+
+                <td class="value-table-design">
+
+                    4 Years
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Project Type
+                </td>
+
+                <td class="value-table-design">
+
+                    Residential and Commercial
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Rental Yield
+                </td>
+
+                <td class="value-table-design">
+
+                    Only Hotel Apartments Rental Yield 10% <br> Per Annum 20% Increment After Every 3 Years
+                </td>
+            </tr>
+            <tr>
+                <td class="heading-table-design">
+                    Approval
+                </td>
+
+                <td class="value-table-design">
+
+                    LDA Approved up to 300 ft
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Developer
+                </td>
+
+                <td class="value-table-design">
+                    Islam Constructions
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Rate Per sOft
+                </td>
+
+                <td class="value-table-design">
+                    1: Commercial Lower Ground: Rs 88,889/- per sqft <br>
+                    2: Commercial Ground Floor: Rs 133,333/- per sqft <br>
+                    3 :Commercial Mezzanine: Rs 86,111/- per sqft <br>
+                    4: Serviced Apartments: Rs 27,777/- per sqft <br>
+                    5: Hotel Apartment: Rs 33,333/= per sqft <br>
+                    6: Food Court: Rs 94,444/- per sqft
+
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Floor Plan
+                </td>
+
+                <td class="value-table-design">
+                    3 Basements + Ground + 29 Floors (300 ft)
+                </td>
+            </tr>
+
+            <tr>
+                <td class="heading-table-design">
+                    Parking Capacity
+                </td>
+
+                <td class="value-table-design">
+
+                    450-460 Car Parking Available in 3 Basements
+                </td>
+            </tr>
+
+
+            </tbody>
+        </table>
+    </div>
+
+</section>
+
+@* *@
+@* Similar Property *@
+
+<section class="container mt-100 row-gutters-void section-similar-property">
+    <div class="col-sm-12 col-md-12 row-gutters-void">
+        <h4>Similar Properties</h4>
+    </div>
+
+
+    <div class="container row-gutters-void mt-50  property-listed-items">
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h1@2x.png" alt="Home Design 1"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertyDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h2@2x.png" alt="Home Design 2"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h3@2x.png" alt="Home Design 3"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
