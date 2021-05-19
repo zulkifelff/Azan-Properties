@@ -8,14 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Property Details/banner_property_details.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Styles/property.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Property/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Property/Index.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +187,7 @@
       <workItem from="1620658625283" duration="2887000" />
       <workItem from="1620719824072" duration="10580000" />
       <workItem from="1620806822625" duration="11130000" />
-      <workItem from="1620838029099" duration="6787000" />
+      <workItem from="1620838029099" duration="7369000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
