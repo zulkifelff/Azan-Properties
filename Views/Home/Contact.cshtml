@@ -1,9 +1,78 @@
-﻿@{
-    ViewBag.Title = "Contact";
-}
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+﻿@model dynamic
 
-<address>
-    My Company Address
-</address>
+@{
+    ViewBag.Title = "Customer Contact Us";
+}
+
+<link rel="stylesheet" href="~/Content/Styles/inquiry.css"/>
+
+<section class="container-fluid row-gutters-void page-banner">
+    <div class="container row-gutters-void page-banner-container">
+        <h1 class="heading-detail-design">Contact Us</h1>
+    </div>
+</section>
+
+
+<section class="container-fluid row-gutters-void mt-40 text-center inquiry-content-main">
+    <p>Office Address</p>
+    <h2>Lahore Office</h2>
+    <p>126-C Commerical Broadway , DHA Phase VIII , Lahore</p>
+
+    <h2>New York Office</h2>
+    <p>71 West 23rd Street New York, NY</p>
+
+</section>
+
+
+<section class="container row-gutters-void mt-50 inquiry-card">
+<h4>Share your query with us</h4>
+    @* Dropdown Fields *@
+    <div class="row form-dropdown-fields mt-60">
+
+
+        <div class="col-md-4 col-sm-6 each-inquiry-field">
+            <label>
+                Name
+            </label>
+            <input placeholder="Enter Email" type="number" id="name" name="name" class="form-control"/>
+
+        </div>
+
+
+        <div class="col-md-4 col-sm-6 each-inquiry-field">
+            <label>
+                Email
+            </label>
+            <input placeholder="Enter Email" type="email" id="email" name="email" class="form-control"/>
+
+        </div>
+
+        <div class="col-md-4 col-sm-6 each-inquiry-field">
+            <label>
+                Mobile
+            </label>
+            <input placeholder="Email" type="tel" id="mobile" name="mobile" class="form-control"/>
+
+        </div>
+
+        <div class="col-md-4 col-sm-6 each-inquiry-field">
+            <label>
+                Message
+            </label>
+            <textarea style="resize: none;" placeholder="Your Message"  id="message" name="message" class="form-control"></textarea>
+
+        </div>
+
+
+    </div>
+
+
+    @* Next Button *@
+    <div class="row form-textarea-field mt-40 ml-0">
+        <button  class="step-completion-btn">Submit</button>
+
+        <button onclick="location.reload();" class="step-completion-btn cancel">Cancel</button>
+    </div>
+
+</section>
+
