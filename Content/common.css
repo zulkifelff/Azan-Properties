@@ -422,4 +422,25 @@ footer {
   opacity: 1;
 }
 
+/* Portrait and Landscape iPhone/Android */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .sm-footer-link-area {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .footer-links-list li {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+
+  .sm-footer-links {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+/* iPhone Landscape */
+/* Portrait and Landscape IPad Pro */
+/* Portrait and Landscape Simple Ipad */
+
 /*# sourceMappingURL=common.css.map */

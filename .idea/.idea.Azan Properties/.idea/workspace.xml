@@ -7,18 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Contact Us Page">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/inquiry.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/inquiry.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/privacy.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/privacy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/property.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/property.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/propertyDetail.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/propertyDetail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Home/Contact.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Contact.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,6 @@
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_kit.fontawesome.com_bd7f11377e.js" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
@@ -99,11 +93,12 @@
       <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/carousel.scss" />
       <option value="$PROJECT_DIR$/Views/Home/Carousel.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/property.css" />
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/property.scss" />
       <option value="$PROJECT_DIR$/Views/Home/Contact.cshtml" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -199,7 +194,7 @@
       <workItem from="1620719824072" duration="10580000" />
       <workItem from="1620806822625" duration="11130000" />
       <workItem from="1620838029099" duration="7369000" />
-      <workItem from="1623485814193" duration="2062000" />
+      <workItem from="1623485814193" duration="4092000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
@@ -257,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620661527168</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Contact Us Page">
+      <created>1623568080199</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1623568080199</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +288,8 @@
     <MESSAGE value="Search Page Shit" />
     <MESSAGE value="Property Detail Committed" />
     <MESSAGE value="Starting Inquiry Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Starting Inquiry Page" />
+    <MESSAGE value="Contact Us Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact Us Page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

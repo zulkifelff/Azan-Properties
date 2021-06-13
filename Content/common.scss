@@ -364,7 +364,6 @@ footer {
 }
 
 
-
 .pagination.ittehad-style > li > a, .pagination.ittehad-style > li > span {
   border: 0 solid #ddd;
   text-align: left;
@@ -377,27 +376,63 @@ footer {
 
 .pagination.ittehad-style > li > a.active, .pagination.ittehad-style > li > span.active {
   background: #3A3A3A 0 0 no-repeat padding-box;
-  color:#FFF;
+  color: #FFF;
   border-radius: 50%;
 }
 
-.pagination.ittehad-style > li > a:hover
-{
+.pagination.ittehad-style > li > a:hover {
   background-color: transparent;
   color: #292929;
 }
 
-.pagination.ittehad-style > li >a.disabled
-{
+.pagination.ittehad-style > li > a.disabled {
   color: #7D7F85;;
 }
 
 
-.pagination-show-result-design
-{
+.pagination-show-result-design {
   text-align: left;
-  font-weight: normal; font-size:20px ;
+  font-weight: normal;
+  font-size: 20px;
   letter-spacing: 0;
   color: #000000;
   opacity: 1;
+}
+
+
+//Media Queries For Mobile
+
+/* Portrait and Landscape iPhone/Android */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .sm-footer-link-area {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .footer-links-list li {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  .sm-footer-links {
+
+    margin-left: 0;
+    margin-right: 10px;
+  }
+}
+
+/* iPhone Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+
+}
+
+
+// Media Queries for IPad
+/* Portrait and Landscape IPad Pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait and Landscape Simple Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+
 }
