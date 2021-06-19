@@ -6,8 +6,7 @@
 
 }
 
-.carousel-caption .heading
-{
+.carousel-caption .heading {
   text-align: center;
   font-weight: normal;
   font-family: SemplicitaPro, serif;
@@ -20,8 +19,7 @@
   padding-bottom: 10px;
 }
 
-.carousel-caption .heading-property
-{
+.carousel-caption .heading-property {
   text-align: center;
   font-size: 39px;
   font-weight: bold;
@@ -34,3 +32,31 @@
 
   padding-bottom: 10px;
 }
+
+/* Portrait and Landscape iPhone/Android */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .carousel-caption {
+    top: 25%;
+    transform: translateY(-50%);
+  }
+
+  .feature-section
+  {
+    margin-top: 50px !important;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+  .carousel-caption .heading {
+
+    font-size: 26px;
+
+  }
+
+  .carousel-caption .heading-property {
+    font-size: 20px;
+  }
+
+}
+

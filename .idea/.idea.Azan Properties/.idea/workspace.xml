@@ -7,13 +7,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="Contact Us Page">
+    <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/carousel.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/carousel.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/homepage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Contact.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Contact.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/interaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Home/Carousel.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Carousel.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +61,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Scripts/site.js" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.css" />
@@ -70,7 +77,6 @@
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/About.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/about.scss" />
       <option value="$PROJECT_DIR$/Views/Home/About.cshtml" />
@@ -86,19 +92,21 @@
       <option value="$PROJECT_DIR$/Views/Home/ContactUsQuery.cshtml" />
       <option value="$PROJECT_DIR$/Models/ContactQuery.cs" />
       <option value="$PROJECT_DIR$/Controllers/HomeController.cs" />
-      <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/Views/Shared/_FilpSection.cshtml" />
       <option value="$PROJECT_DIR$/Scripts/Homepage/homepage.js" />
-      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
-      <option value="$PROJECT_DIR$/Content/Styles/carousel.scss" />
-      <option value="$PROJECT_DIR$/Views/Home/Carousel.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/property.css" />
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/property.scss" />
       <option value="$PROJECT_DIR$/Views/Home/Contact.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
+      <option value="$PROJECT_DIR$/Scripts/interaction.js" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
+      <option value="$PROJECT_DIR$/Content/Styles/carousel.scss" />
+      <option value="$PROJECT_DIR$/Views/Home/Carousel.cshtml" />
+      <option value="$PROJECT_DIR$/Content/Site.css" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -194,7 +202,8 @@
       <workItem from="1620719824072" duration="10580000" />
       <workItem from="1620806822625" duration="11130000" />
       <workItem from="1620838029099" duration="7369000" />
-      <workItem from="1623485814193" duration="4092000" />
+      <workItem from="1623485814193" duration="4833000" />
+      <workItem from="1624083428803" duration="6441000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>

@@ -313,3 +313,38 @@ body
 {
   margin-top: 15px;
 }
+
+
+//Media Queries For Mobile
+
+/* Portrait and Landscape iPhone/Android */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .testimonials-person-message-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .testimonials-person {
+    margin-left: 10px;
+  }
+
+
+  .carousel-caption {
+    top: 25%;
+    transform: translateY(-50%);
+  }
+
+  .carousel-caption .heading {
+
+    font-size: 26px;
+
+  }
+
+  .carousel-caption .heading-property {
+    font-size: 20px;
+  }
+  .basic-information .star-rating {
+    display: none;
+  }
+}
