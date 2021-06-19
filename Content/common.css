@@ -137,6 +137,7 @@ body {
   width: 29px;
   height: 29px;
   font-size: 16px;
+  border-radius: 50%;
   right: -5px;
   top: -5px;
 }
@@ -507,5 +508,121 @@ footer {
 /* iPhone Landscape */
 /* Portrait and Landscape IPad Pro */
 /* Portrait and Landscape Simple Ipad */
+.scrollX {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 10px;
+}
+
+.scrollX::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #b1b4b6;
+}
+
+.scrollX::-webkit-scrollbar {
+  height: 8px;
+  background-color: #fff;
+}
+
+.scrollX::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #12202b;
+}
+
+.scrollX .scroll-list {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.scrollX .scroll-list .list-container {
+  min-width: 325px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.scrollX.lighter::-webkit-scrollbar-track {
+  border: none;
+}
+
+.scrollX.lighter::-webkit-scrollbar {
+  height: 4px;
+}
+
+.scrollX.lighter::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.scrollX:hover.lighter::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+.scrollY {
+  overflow-x: hidden;
+  padding-right: 10px;
+  overflow-y: auto;
+}
+
+.scrollY::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #b1b4b6;
+}
+
+.scrollY::-webkit-scrollbar {
+  width: 8px;
+  background-color: #fff;
+}
+
+.scrollY::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #12202b;
+}
+
+.scrollY.scrollX {
+  overflow-x: auto;
+}
+
+.scrollY.lighter::-webkit-scrollbar-track {
+  border: none;
+}
+
+.scrollY.lighter::-webkit-scrollbar {
+  width: 4px;
+}
+
+.scrollY.lighter::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.scrollY.lighter.scroll-visible::-webkit-scrollbar-thumb, .scrollY:hover.lighter::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+}
+
+.no-padding-left {
+  padding-left: 0px;
+}
+
+.no-padding-right {
+  padding-right: 0px;
+}
+
+.gutter-padding-left {
+  padding-left: 15px;
+}
+
+.gutter-padding-right {
+  padding-right: 15px;
+}
 
 /*# sourceMappingURL=common.css.map */

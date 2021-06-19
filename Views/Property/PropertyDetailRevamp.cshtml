@@ -1,0 +1,334 @@
+﻿@{
+    ViewBag.Title = "Property Detail Tabs";
+}
+<link rel="stylesheet" href="../../Content/Styles/propertyDetail.css"/>
+
+<section style="background-image: url('../../Content/Graphical Assets/Property Details/banner_property_details.jpg')" class="property-details-banner-styling property-banner clearfix">
+    <div class="container row-gutters-void ">
+        <h1>Property Details</h1>
+    </div>
+</section>
+
+<section class="clearfix property-detail-naming">
+    <div class="container gutter-padding-left gutter-padding-right">
+        <h1 class="property-detail-naming-text">Gulberg City Center, Radisson Hotels</h1>
+    </div>
+</section>
+
+
+<section class="clearfix property-detail-upper-section mt-60">
+
+    <div class="container row-gutters-void">
+        <div class="no-padding-left col-md-6 col-sm-12 images-section">
+
+                <div class="row no-row-cut main-image-section">
+                    <img id="true-current-image" class="img-responsive" loading="lazy" src="~/Content/Graphical Assets/Property Details/Property-Images/img@2x.png" alt="Property Name and Image">
+                </div>
+
+                <div class="row no-row-cut scrollX lighter all-image-section mt-40">
+                    <ul class="all-thumbnails">
+                        <li class="each-image-thumbnail">
+                            <img original="~/Content/Graphical Assets/Property Details/Property-Images/img@2x.png"
+                                 src="~/Content/Graphical Assets/Property Details/Property-Images/01.png" loading="eager" alt="Image 1">
+                        </li>
+                        <li class="each-image-thumbnail">
+                            <img original="~/Content/Graphical Assets/Property Details/Property-Images/image-1-orginal.png"
+                                 src="~/Content/Graphical Assets/Property Details/Property-Images/image-1-thumbnail.png"
+                                 loading="eager"
+                                 alt="Image 1">
+                        </li>
+                        <li class="each-image-thumbnail">
+                            <img original="~/Content/Graphical Assets/Property Details/Property-Images/image-2-orginal.png"
+                                 src="~/Content/Graphical Assets/Property Details/Property-Images/image-2-thumbnail.png"
+                                 loading="eager"
+                                 alt="Image 1">
+                        </li>
+                        <li class="each-image-thumbnail">
+                            <img original="~/Content/Graphical Assets/Property Details/Property-Images/image-3-orginal.png"
+                                 src="~/Content/Graphical Assets/Property Details/Property-Images/image-3-thumbnail.png" loading="eager" alt="Image 1">
+                        </li>
+                        <li class="each-image-thumbnail">
+                            <img original="~/Content/Graphical Assets/Property Details/Property-Images/img@2x.png" src="~/Content/Graphical Assets/Property Details/Property-Images/01.png" loading="eager" alt="Image 1">
+                        </li>
+
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-md-6 col-sm-12 no-padding-right table-section">
+
+                <div class="row no-row-cut detail-table-section">
+                    <div class="row no-row-cut detail-table-section-heading">
+                        <span>Current Details</span>
+                    </div>
+
+                    <div class="row no-row-cut detail-table-section-content">
+                        <table class="table table-bordered">
+
+                            <tbody>
+                            <tr>
+                                <td class="table-key-style">Project Type:</td>
+                                <td class="table-value-style">Residential and Commercial</td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="table-key-style">Land Size:</td>
+                                <td class="table-value-style">12 Kanal & 6 Marla</td>
+                            </tr>
+
+
+
+                            <tr>
+                                <td class="table-key-style">Installment Plan:</td>
+                                <td class="table-value-style">4 Years</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Rental Yield:</td>
+                                <td class="table-value-style">Only Hotel Apartments Rental Yield 10% Per Annum 20% Increment After Every 3 Years</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Approval:</td>
+                                <td class="table-value-style">LDA Approved up to 300 ft</td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="table-key-style">Project Locality:</td>
+                                <td class="table-value-style">Corner Location Facing Gulberg Main Boulevard and Facing Mini Market Road / M M Alam Road</td>
+                            </tr>
+
+
+                            <tr>
+                                <td class="table-key-style">Inventory Type:</td>
+                                <td class="table-value-style">Commercial Outlets, Hotel & Service Apartments</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Developer:</td>
+                                <td class="table-value-style">Islam Constructions</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Rate Per Soft:</td>
+                                <td class="table-value-style">Commercial Lower Ground: Rs 88,889/- per sqft, Commercial Ground Floor: Rs 133,333/- per sqft,Commercial Mezzanine: Rs 86,111/- per sqft Serviced Apartments: Rs 27,777/- per sqft,Hotel Apartment: Rs 33,333/= per sqft and Food Court: Rs 94,444/- per sqft</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Floor Plan:</td>
+                                <td class="table-value-style">3 Basements + Ground + 29 Floors (300 ft)</td>
+                            </tr>
+
+                            <tr>
+                                <td class="table-key-style">Parking Capacity:</td>
+                                <td class="table-value-style">450-460 Car Parking Available in 3 Basements</td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+
+</section>
+
+<section class="container mt-100 row-gutters-void section-similar-property">
+    <div class="col-sm-12 col-md-12 row-gutters-void">
+        <h4>Similar Properties</h4>
+    </div>
+
+
+    <div class="container row-gutters-void mt-50  property-listed-items">
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h1@2x.png" alt="Home Design 1"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertyDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h2@2x.png" alt="Home Design 2"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-12 col-md-4 individual-item clearfix">
+            <div class="all-layering">
+                @* Image of Property *@
+                <img class="img-responsive" src="../../Content/Graphical Assets/Common/h3@2x.png" alt="Home Design 3"/>
+                @* Property Name *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <h3 class="property-name">Lovelace Greenfield</h3>
+                </div>
+                @* Property Specification *@
+                <div class="col-sm-12 col-md-12  property-details mt-25">
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Area</div>
+                        <div class="pull-right specification-value"> 34000/M2</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Beds</div>
+                        <div class="pull-right specification-value"> 3 Beds</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 property-specifications">
+                        <div class="pull-left specification-name"> Bath</div>
+                        <div class="pull-right specification-value"> 2 Bath</div>
+                    </div>
+                    <div class="col-md-12 col-sm-12  property-specifications">
+                        <div class="pull-left specification-name"> Price</div>
+                        <div class="pull-right specification-value price"> Rs:10,00000</div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 property-details mt-10 mb-25">
+                    <button
+                        onclick="location.href='/Property/PropertDetail/1';"
+                        class="property-details-btn">
+                        View Details
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/screenfull.js/5.1.0/screenfull.js"
+        integrity="sha512-Dv9aNdD27P2hvSJag3mpFwumC/UVIpWaVE6I4c8Nmx1pJiPd6DMdWGZZ5SFiys/M8oOSD1zVGgp1IxTJeWBg5Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</script>
+
+<script>
+jQuery('#true-current-image').click(function () {
+				screenfull.toggle(this);
+			});
+</script>
+
+
+<script>
+
+</script>

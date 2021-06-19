@@ -21,7 +21,7 @@ namespace Azan_Properties.Controllers
         public ActionResult PropertyDetail(string incomingId)
         {
             ViewBag.Message = "Your Property page.";
-            return View();
+            return View("PropertyDetailRevamp");
         }
     }
 }

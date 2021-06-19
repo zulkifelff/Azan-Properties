@@ -17,3 +17,12 @@ function closeNotificationModal()
 {
     $('#notificationModal').modal('close');
 }
+
+jQuery(".each-image-thumbnail").click(function (event) {
+    event.stopPropagation();
+    let currentElement=jQuery(this);
+    let originalURL=currentElement.find('img').attr('original');
+    let replacingElement=document.getElementById('true-current-image');
+    replacingElement.src=originalURL;
+    console.table(currentElement);
+});
