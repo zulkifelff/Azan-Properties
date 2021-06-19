@@ -1,6 +1,7 @@
 jQuery( document ).ready(function() {
     console.log( "ready!" );
     jQuery.noConflict();
+    new WOW().init();
 });
 
 

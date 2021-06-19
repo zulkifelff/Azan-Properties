@@ -30,6 +30,7 @@ namespace Azan_Properties
             bundles.Add(new StyleBundle("~/Content/css").Include(
                 "~/Content/bootstrap.css",
                 "~/Content/common.css",
+                "~/Content/animate.css",
                 "~/Content/site.css"));
         }
     }

@@ -95,8 +95,8 @@ function cityChange() {
 
 function triggerStep2() {
 
-    $("#step-1").fadeOut('fast');
-    $("#step-2").fadeIn('slow');
+    jQuery("#step-1").fadeOut('fast');
+    jQuery("#step-2").fadeIn('slow');
 
 
 }
