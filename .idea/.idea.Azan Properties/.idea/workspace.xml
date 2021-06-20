@@ -8,19 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/jquery.typeahead.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Scripts/jquery.typeahead.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/App_Start/BundleConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/interaction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Property/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Property/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Property/PropertyDetailRevamp.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Property/PropertyDetailRevamp.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Search/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Search/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +27,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -88,19 +85,15 @@
       <option value="$PROJECT_DIR$/Content/Styles/property.css" />
       <option value="$PROJECT_DIR$/Content/Styles/property.scss" />
       <option value="$PROJECT_DIR$/Views/Home/Contact.cshtml" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/homepage.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/carousel.scss" />
       <option value="$PROJECT_DIR$/Content/Site.css" />
       <option value="$PROJECT_DIR$/Controllers/PropertyController.cs" />
       <option value="$PROJECT_DIR$/Views/Home/Carousel.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/propertyDetail.scss" />
       <option value="$PROJECT_DIR$/Views/Home/About.cshtml" />
       <option value="$PROJECT_DIR$/Content/animate.css" />
       <option value="$PROJECT_DIR$/Views/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
-      <option value="$PROJECT_DIR$/Scripts/interaction.js" />
       <option value="$PROJECT_DIR$/Views/Home/Index.cshtml" />
       <option value="$PROJECT_DIR$/Scripts/Inquiry/inquiry.js" />
       <option value="$PROJECT_DIR$/Views/Home/Inquiry.cshtml" />
@@ -108,6 +101,12 @@
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetailRevamp.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
+      <option value="$PROJECT_DIR$/Content/jquery.typeahead.css" />
+      <option value="$PROJECT_DIR$/Scripts/jquery.typeahead.js" />
+      <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
+      <option value="$PROJECT_DIR$/Scripts/interaction.js" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -125,7 +124,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -204,7 +203,7 @@
       <workItem from="1620806822625" duration="11130000" />
       <workItem from="1620838029099" duration="7369000" />
       <workItem from="1623485814193" duration="4833000" />
-      <workItem from="1624083428803" duration="17030000" />
+      <workItem from="1624083428803" duration="21844000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>

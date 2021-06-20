@@ -2,7 +2,7 @@
 <section class="clearfix">
     <div class="container-fluid sm-header-design  row-gutters-void clearfix">
         <div class="content-sm-header container row-gutters-void">
-            <div class="col-sm-12 col-md-12 sm-icon-placement">
+            <div id="social-media-link-section" class="col-sm-12 col-md-12 sm-icon-placement">
                 <span class="link-icon-sm facebook">
                     <a href="#" target="_blank"></a>
                 </span>
@@ -15,6 +15,18 @@
                 <span class="link-icon-sm instagram">
                     <a href="#" target="_blank"></a>
                 </span>
+            </div>
+            <div style="display: none" id="search-query-section" class="col-sm-12 col-md-12 header-search-placement">
+                <div id="custom-search-input">
+                    <div class="input-group col-md-12">
+                        <input id="searchbar-field" type="text" class="form-control input-lg typeahead" placeholder="Search Here"/>
+                        <span class="input-group-btn">
+                            <button class="btn btn-info btn-lg" type="button">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -45,7 +57,7 @@
                             <li>@Html.ActionLink("Property", "Index", "Search")</li>
                             <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
                             <li class="special-navigation">@Html.ActionLink("Inquiry", "Inquiry", "Home")</li>
-
+                            <li onclick="toggleSearchBar()" class="search-icon"><span class="fa fa-search"></span></li>
                         </ul>
                     </div>
                 </div>
