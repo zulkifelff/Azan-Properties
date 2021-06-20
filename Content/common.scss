@@ -275,8 +275,8 @@ body {
     margin-left: 300px;
   }
   .navbar-nav > li > a {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
@@ -459,41 +459,6 @@ footer {
 }
 
 
-//Media Queries For Mobile
-
-/* Portrait and Landscape iPhone/Android */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-  .sm-footer-link-area {
-    text-align: left;
-    margin-top: 10px;
-  }
-
-  .footer-links-list li {
-    margin-right: 15px;
-    margin-left: 0;
-  }
-  .sm-footer-links {
-
-    margin-left: 0;
-    margin-right: 10px;
-  }
-
-  //.sideline-css .text {
-  //  display: none;
-  //}
-
-  .sideline-css .line {
-    display: none;
-  }
-
-  .sideline-css .line.secondary {
-    display: none;
-  }
-
-  .flip-section .view-more-button {
-    display: none;
-  }
-}
 
 /* iPhone Landscape */
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
@@ -543,7 +508,7 @@ footer {
 }
 
 .scrollX .scroll-list {
-  width: -webkit-max-content;
+  //width: -webkit-max-content;
 }
 
 .scrollX .scroll-list .list-container {
@@ -617,28 +582,24 @@ footer {
 }
 
 
-.no-padding-left
-{
+.no-padding-left {
   padding-left: 0px;
 }
 
 
-.no-padding-right
-{
+.no-padding-right {
   padding-right: 0px;
 }
 
-.gutter-padding-left
-{
+.gutter-padding-left {
   padding-left: 15px;
 }
 
-.gutter-padding-right
-{
+.gutter-padding-right {
   padding-right: 15px;
 }
 
-#custom-search-input{
+#custom-search-input {
   padding: 3px;
   border: solid 1px #E4E4E4;
   border-radius: 6px;
@@ -646,7 +607,7 @@ footer {
   color: #FFFFFF;
 }
 
-#custom-search-input input{
+#custom-search-input input {
   border: 0;
   box-shadow: none;
   color: #FFF;
@@ -655,11 +616,11 @@ footer {
   padding: 2px 8px;
 }
 
-#custom-search-input input{
+#custom-search-input input {
   background-color: transparent;
 }
 
-#custom-search-input button{
+#custom-search-input button {
   margin: 2px 0 0 0;
   background: none;
   box-shadow: none;
@@ -669,12 +630,138 @@ footer {
   border-left: solid 1px #ccc;
 }
 
-#custom-search-input button:hover{
+#custom-search-input button:hover {
   border: 0;
   box-shadow: none;
   border-left: solid 1px #ccc;
 }
 
-#custom-search-input .glyphicon-search{
+#custom-search-input .glyphicon-search {
   font-size: 18px;
+}
+
+.search-icon-header {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  background: transparent url('Graphical Assets/Common/icon_search.svg') 0% 0% no-repeat padding-box;
+}
+
+
+.search-icon .anchor-link {
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 1px solid #EEE;
+}
+
+.search-icon {
+  margin-left: 30px;
+}
+
+
+
+//Media Queries For Mobile
+
+
+/* Landscape iPhone */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .navbar-collapse.collapse .navbar-nav {
+    margin-left: 00px;
+  }
+
+  .icon-header-bar {
+    width: 85px;
+    background: transparent url("Graphical Assets/Common/logo_header_croped.svg") 0 0 no-repeat padding-box;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .navbar-anchor-links li.special-navigation a {
+
+    margin-top: 11px;
+  }
+
+  .container > .navbar-header {
+    margin: 17px 0 0;
+  }
+}
+
+/* Landscape Pixel 2XL */
+@media only screen and (min-device-width: 411px) and (max-width: 823px) and (orientation: landscape) {
+  .navbar-collapse.collapse .navbar-nav {
+    margin-left: 00px;
+  }
+
+  .icon-header-bar {
+    width: 85px;
+    background: transparent url("Graphical Assets/Common/logo_header_croped.svg") 0 0 no-repeat padding-box;
+  }
+
+  .navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 21px;
+  }
+
+  .navbar-anchor-links li.special-navigation a {
+
+    margin-top: 11px;
+  }
+
+  .navbar-anchor-links li a {
+    font-size: 12px;
+  }
+
+  .container > .navbar-header {
+    margin: 17px 0 0;
+  }
+}
+
+
+/* Portrait and Landscape iPhone/Android */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .sm-footer-link-area {
+    text-align: left;
+    margin-top: 10px;
+  }
+
+  .footer-links-list li {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+  .sm-footer-links {
+
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+
+  .sideline-css .line {
+    display: none;
+  }
+
+  .sideline-css .line.secondary {
+    display: none;
+  }
+
+  .flip-section .view-more-button {
+    display: none;
+  }
+
+  .search-icon {
+    margin-left: 0;
+  }
+
+  .search-icon .anchor-link {
+    //padding-left: 0;
+    //padding-right: 0;
+    border-left: 0 solid #EEE;
+  }
+
 }

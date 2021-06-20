@@ -8,14 +8,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Content/jquery.typeahead.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scripts/jquery.typeahead.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Content/Graphical Assets/Common/logo_header_croped.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Azan Properties.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Azan Properties.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/common.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/interaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/interaction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Header.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +57,6 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Scripts/site.js" />
       <option value="$PROJECT_DIR$/Views/Property/Apartment.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.css" />
       <option value="$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_kit.fontawesome.com_bd7f11377e.js" />
       <option value="$PROJECT_DIR$/Content/CustomFonts.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/privacy.scss" />
@@ -101,12 +98,14 @@
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetailRevamp.cshtml" />
       <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
-      <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Content/jquery.typeahead.css" />
       <option value="$PROJECT_DIR$/Scripts/jquery.typeahead.js" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Scripts/interaction.js" />
+      <option value="$PROJECT_DIR$/Content/Graphical Assets/Common/icon_search.svg" />
+      <option value="$PROJECT_DIR$/Content/common.css" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
+      <option value="$PROJECT_DIR$/Content/common.scss" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -203,7 +202,7 @@
       <workItem from="1620806822625" duration="11130000" />
       <workItem from="1620838029099" duration="7369000" />
       <workItem from="1623485814193" duration="4833000" />
-      <workItem from="1624083428803" duration="21844000" />
+      <workItem from="1624083428803" duration="25092000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
