@@ -26,3 +26,12 @@
   color: #000000;
 }
 
+
+@media(max-width: 767px) {
+  .privacy-content-main {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
+
+
