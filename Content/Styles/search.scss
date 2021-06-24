@@ -1,22 +1,26 @@
 ﻿//colors
 $white: rgba(255, 255, 255, 1);
-$white_25: rgba(255, 255, 255, 0.23);
-
+$white_23: rgba(255, 255, 255, 0.23);
+$black_15: rgba(0, 0, 0, 0.15);
+$color_mine_shaft_approx: rgba(51, 51, 51, 1);
+$color_cyprus_70_approx: rgba(0, 59, 73, 0.7);
+$color_cyprus_approx: rgba(0, 59, 73, 1);
+$color_blue_zodiac_approx: rgba(16, 31, 65, 1);
+//fonts
+$font_0: 'SemplicitaProBold';
+$font_1: 'serif';
 //urls
-$url_0: url("../Graphical Assets/Common/banner_contect_us@2x.png");
+$url_0: url('../Graphical Assets/Common/banner_contect_us@2x.png');
 
 .search-banner-styling {
   height: 346px;
+  //Instead of the line below you could use @include background-origin($origin)
   background-origin: padding-box;
   background-size: contain;
   background-color: $white;
   background-image: $url_0;
   background-repeat: no-repeat;
   background-position: right top;
-}
-
-.search-banner-styling
-{
   display: flex;
   flex-wrap: wrap;
   align-content: space-around;
@@ -24,98 +28,237 @@ $url_0: url("../Graphical Assets/Common/banner_contect_us@2x.png");
 }
 
 .search-container-styling {
-  width: 1020px;
-  background: $white_25 0 0 no-repeat padding-box;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.23) 0 0 no-repeat padding-box;
   border-radius: 20px;
   padding: 40px 50px;
   margin: 0 auto;
+  max-width: 1020px;
+
+  .location-dd {
+    width: 220px;
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 10px $black_15;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 12px;
+    color: $color_mine_shaft_approx;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .price-from-dd {
+    width: 140px;
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 10px $black_15;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 12px;
+    color: $color_mine_shaft_approx;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .price-to-dd {
+    width: 140px;
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 10px $black_15;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 12px;
+    color: $color_mine_shaft_approx;
+    float: left;
+    margin-right: 10px;
+  }
+
+  .type-dd {
+    width: 230px;
+    background: $white 0 0 no-repeat padding-box;
+    //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+    box-shadow: 0 3px 10px $black_15;
+    //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+    border-radius: 12px;
+
+    color: $color_mine_shaft_approx;
+    float: left;
+    margin-right: 10px;
+  }
+
+  select {
+    width: 100%;
+    height: 50px;
+    border-radius: 12px;
+    border: 0 solid transparent;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 0;
+    color: $color_cyprus_70_approx;
+    padding-left: 10px;
+
+    &:focus-visible {
+      border: 0 solid transparent;
+    }
+
+    &:hover {
+      border: 0 solid transparent;
+    }
+  }
 }
 
-.search-container-styling .location-dd {
-  width: 220px;
-  background: rgba(255, 255, 255, 1) 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  color: #333;
-  float: left;
-  margin-right: 10px;
-}
-
-.search-container-styling .price-from-dd {
-  width: 140px;
-  background: rgba(255, 255, 255, 1) 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  color: #333;
-  float: left;
-  margin-right: 10px;
-}
-
-.search-container-styling .price-to-dd {
-  width: 140px;
-  background: rgba(255, 255, 255, 1) 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  color: #333;
-  float: left;
-  margin-right: 10px;
-}
-
-
-.search-container-styling .type-dd {
-  width: 230px;
-  background: rgba(255, 255, 255, 1) 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  color: #333;
-  float: left;
-  margin-right: 10px;
-}
-
-.search-container-styling select {
-  width: 100%;
-  height: 50px;
-  border-radius: 12px;
-  border: 0 solid transparent;
-
-  text-align: left;
-  font-weight: 400;
-  font-size: 13px;
-  letter-spacing: 0;
-  color: rgba(0, 59, 73, 0.7);
-  padding-left: 10px;
-
-}
-
-.search-container-styling select:focus-visible, .search-container-styling select:hover
-{
-  border: 0 solid transparent;
-}
-
-.search-filter-button
-{
-  background: rgba(0, 59, 73, 1) 0 0 no-repeat padding-box;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+.search-filter-button {
+  background: $color_cyprus_approx 0 0 no-repeat padding-box;
+  box-shadow: 0 3px 10px $black_15;
   border-radius: 12px;
   text-align: center;
-  font-weight:400 ;
+  font-weight: 400;
   font-size: 14px;
   letter-spacing: 0;
-  color: rgba(255, 255, 255, 1);
+  color: $white;
   text-transform: capitalize;
   padding: 16px 48px;
   float: left;
   border: 0 solid transparent;
 }
 
-.search-property-grid h2.heading
-{
+/* Portrait and Landscape */
+//iPhone Portrait
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .search-banner-styling {
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-origin: padding-box;
+    background-color: transparent;
+    background-clip: padding-box;
+  }
+  .search-container-styling {
+    padding: 20px 25px;
+    width: 100%;
+  }
+
+  .search-container-styling .type-dd {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .location-dd {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .price-from-dd {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .price-to-dd {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .search-filter-button {
+    width: 100%;
+  }
+
+
+  .property-listed-items .individual-item {
+    padding-left: 15px;
+  }
+
+  .search-property-grid h2.heading {
+    text-align: center !important;
+
+  }
+
+}
+
+//iPhone X Landscape
+@media only screen and(min-device-width: 375px) and(max-device-width: 812px) and(-webkit-min-device-pixel-ratio: 3) and(orientation: landscape) {
+  .search-banner-styling {
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    //Instead of the line below you could use @include background-origin($origin)
+    background-origin: padding-box;
+    background-color: transparent;
+    //Instead of the line below you could use @include background-clip($clip)
+    background-clip: padding-box;
+  }
+  .search-container-styling {
+    padding: 20px 25px;
+    width: 100%;
+  }
+
+  .search-property-grid h2.heading {
+    text-align: center;
+  }
+
+  .property-listed-items .individual-item {
+    padding-left: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 823px) and (orientation: landscape) {
+  .search-banner-styling {
+    background-size: cover;
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-origin: padding-box;
+    background-color: transparent;
+    background-clip: padding-box;
+  }
+  .search-container-styling {
+    padding: 20px 25px;
+    width: 100%;
+  }
+
+  .search-container-styling .type-dd {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .location-dd {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .price-from-dd {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .search-container-styling .price-to-dd {
+    width: 50%;
+    margin-right: 0;
+  }
+
+  .search-filter-button {
+    width: 100%;
+  }
+
+
+  .property-listed-items .individual-item {
+    padding-left: 15px;
+  }
+
+  .search-property-grid h2.heading {
+    text-align: center !important;
+
+  }
+}
+
+.search-property-grid h2.heading {
   text-align: left;
   font-weight: bold;
   font-size: 40px;
-  font-family: SemplicitaProBold, serif;
+  font-family: $font_0, $font_1;
   letter-spacing: 0;
-  color: #101F41;
+  color: $color_blue_zodiac_approx;
   text-transform: capitalize;
   opacity: 1;
 }

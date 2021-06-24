@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="136ae292-686c-47fd-8acf-3eaba5294ae3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Content/Styles/privacy.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/privacy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/privacy.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/privacy.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Styles/privacy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/privacy.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Azan Properties/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/search.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Styles/search.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Styles/search.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,6 @@
       <option value="$PROJECT_DIR$/Views/Home/Privacy.cshtml" />
       <option value="$PROJECT_DIR$/Controllers/SearchController.cs" />
       <option value="$PROJECT_DIR$/Content/Styles/search.css" />
-      <option value="$PROJECT_DIR$/Content/Styles/search.scss" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetail.cshtml" />
       <option value="$PROJECT_DIR$/Content/Styles/About.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/about.scss" />
@@ -92,7 +93,6 @@
       <option value="$PROJECT_DIR$/Views/Property/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Search/Index.cshtml" />
       <option value="$PROJECT_DIR$/Views/Property/PropertyDetailRevamp.cshtml" />
-      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
       <option value="$PROJECT_DIR$/Content/jquery.typeahead.css" />
       <option value="$PROJECT_DIR$/Scripts/jquery.typeahead.js" />
       <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
@@ -102,6 +102,8 @@
       <option value="$PROJECT_DIR$/Views/Shared/_Header.cshtml" />
       <option value="$PROJECT_DIR$/Content/common.scss" />
       <option value="$PROJECT_DIR$/Content/Styles/privacy.scss" />
+      <option value="$PROJECT_DIR$/Content/Styles/search.scss" />
+      <option value="$PROJECT_DIR$/Views/Shared/_Footer.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1rsgU2Wg6YUU43e06zLAeAmBb5Y" />
@@ -125,7 +127,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\JetBrains Rider 211.6693.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -198,7 +200,9 @@
       <workItem from="1620806822625" duration="11130000" />
       <workItem from="1620838029099" duration="7369000" />
       <workItem from="1623485814193" duration="4833000" />
-      <workItem from="1624083428803" duration="25438000" />
+      <workItem from="1624083428803" duration="25891000" />
+      <workItem from="1624376506387" duration="604000" />
+      <workItem from="1624512043638" duration="2087000" />
     </task>
     <task id="LOCAL-00001" summary="First Push for Documents: Azan Properties Project">
       <created>1619770288939</created>
